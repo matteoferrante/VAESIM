@@ -1,0 +1,3 @@
+Deep K-Means (tensorflow): https://github.com/MaziarMF/deep-k-means
+MOEVAESIM: https://github.com/andkopf/MoESimVAE 
+MICE: https://github.com/TsungWeiTsai/MiCE

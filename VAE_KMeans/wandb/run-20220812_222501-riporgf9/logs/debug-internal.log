@@ -1,0 +1,292 @@
+2022-08-12 22:25:02,545 INFO    MainThread:835591 [internal.py:wandb_internal():90] W&B internal server running at pid: 835591, started at: 2022-08-12 22:25:02.544938
+2022-08-12 22:25:02,550 INFO    WriterThread:835591 [datastore.py:open_for_write():75] open: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/run-riporgf9.wandb
+2022-08-12 22:25:02,551 DEBUG   SenderThread:835591 [sender.py:send():232] send: header
+2022-08-12 22:25:02,551 DEBUG   SenderThread:835591 [sender.py:send():232] send: run
+2022-08-12 22:25:02,790 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: check_version
+2022-08-12 22:25:02,797 INFO    SenderThread:835591 [dir_watcher.py:__init__():197] watching files in: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files
+2022-08-12 22:25:02,797 INFO    SenderThread:835591 [sender.py:_start_run_threads():811] run started: riporgf9 with start time 1660339501
+2022-08-12 22:25:02,797 DEBUG   SenderThread:835591 [sender.py:send():232] send: summary
+2022-08-12 22:25:02,797 INFO    SenderThread:835591 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:25:02,798 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: check_version
+2022-08-12 22:25:02,841 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: run_start
+2022-08-12 22:25:02,855 DEBUG   HandlerThread:835591 [meta.py:__init__():35] meta init
+2022-08-12 22:25:02,855 DEBUG   HandlerThread:835591 [meta.py:__init__():49] meta init done
+2022-08-12 22:25:02,856 DEBUG   HandlerThread:835591 [meta.py:probe():209] probe
+2022-08-12 22:25:02,866 DEBUG   HandlerThread:835591 [git.py:repo():29] git repository is invalid
+2022-08-12 22:25:02,867 DEBUG   HandlerThread:835591 [meta.py:_save_pip():53] save pip
+2022-08-12 22:25:02,868 DEBUG   HandlerThread:835591 [meta.py:_save_pip():67] save pip done
+2022-08-12 22:25:02,868 DEBUG   HandlerThread:835591 [meta.py:_save_conda():74] save conda
+2022-08-12 22:25:03,801 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/wandb-summary.json
+2022-08-12 22:25:03,802 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/requirements.txt
+2022-08-12 22:25:03,802 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/conda-environment.yaml
+2022-08-12 22:25:06,428 DEBUG   HandlerThread:835591 [meta.py:_save_conda():84] save conda done
+2022-08-12 22:25:06,428 DEBUG   HandlerThread:835591 [meta.py:probe():247] probe done
+2022-08-12 22:25:06,651 DEBUG   SenderThread:835591 [sender.py:send():232] send: files
+2022-08-12 22:25:06,651 INFO    SenderThread:835591 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-08-12 22:25:06,673 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:25:06,673 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:25:06,681 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:25:06,681 INFO    HandlerThread:835591 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:25:06,750 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:25:06,750 INFO    HandlerThread:835591 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:25:06,798 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/conda-environment.yaml
+2022-08-12 22:25:06,799 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/output.log
+2022-08-12 22:25:06,799 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/wandb-metadata.json
+2022-08-12 22:25:06,866 DEBUG   SenderThread:835591 [sender.py:send():232] send: telemetry
+2022-08-12 22:25:06,867 DEBUG   SenderThread:835591 [sender.py:send():232] send: stats
+2022-08-12 22:25:07,262 INFO    Thread-11 :835591 [upload_job.py:push():132] Uploaded file /tmp/tmpc7nibjqnwandb/1dme5u74-wandb-metadata.json
+2022-08-12 22:25:07,520 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-12 22:25:07,521 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: log_artifact
+2022-08-12 22:25:07,799 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media/table/stat_df_0_1ad9baadd9b27e143fe4.table.json
+2022-08-12 22:25:07,800 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media
+2022-08-12 22:25:07,800 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media/table
+2022-08-12 22:25:08,236 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-12 22:25:08,497 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-12 22:25:08,517 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:25:08,519 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:25:08,520 INFO    HandlerThread:835591 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:25:08,800 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/output.log
+2022-08-12 22:25:08,801 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media/table/lin_df_0_47b884f6b8daa050e882.table.json
+2022-08-12 22:25:08,801 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media/table/knn_df_0_38b6940e334c6006e41c.table.json
+2022-08-12 22:25:08,801 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media/table
+2022-08-12 22:25:09,127 INFO    Thread-14 :835591 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/99/8cccd8c416895151bcde80226c0826
+2022-08-12 22:25:10,389 INFO    SenderThread:835591 [sender.py:send_request_log_artifact():1005] logged artifact run-riporgf9-stat_df - {'id': 'QXJ0aWZhY3Q6MTcxOTk4MTA3', 'digest': '762ffa5b0a065cf930548d8245af1996', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzMxNzEw', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-12 22:25:10,390 DEBUG   SenderThread:835591 [sender.py:send():232] send: files
+2022-08-12 22:25:10,390 INFO    SenderThread:835591 [sender.py:_save_file():948] saving file media/table/stat_df_0_1ad9baadd9b27e143fe4.table.json with policy now
+2022-08-12 22:25:10,391 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: log_artifact
+2022-08-12 22:25:11,010 INFO    Thread-15 :835591 [upload_job.py:push():132] Uploaded file /tmp/tmpc7nibjqnwandb/nr0zfwfm-media/table/stat_df_0_1ad9baadd9b27e143fe4.table.json
+2022-08-12 22:25:11,765 INFO    Thread-17 :835591 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/4b/e100e7388ecbee9d48802301404ba5
+2022-08-12 22:25:12,816 INFO    SenderThread:835591 [sender.py:send_request_log_artifact():1005] logged artifact run-riporgf9-knn_df - {'id': 'QXJ0aWZhY3Q6MTcxOTk4MTM4', 'digest': '48462b933c1e1d9b55a904936e5da3a0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzMxNzE0', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-12 22:25:12,816 DEBUG   SenderThread:835591 [sender.py:send():232] send: files
+2022-08-12 22:25:12,816 INFO    SenderThread:835591 [sender.py:_save_file():948] saving file media/table/knn_df_0_38b6940e334c6006e41c.table.json with policy now
+2022-08-12 22:25:12,818 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: log_artifact
+2022-08-12 22:25:13,454 INFO    Thread-18 :835591 [upload_job.py:push():132] Uploaded file /tmp/tmpc7nibjqnwandb/1fwfm9hg-media/table/knn_df_0_38b6940e334c6006e41c.table.json
+2022-08-12 22:25:14,276 INFO    Thread-20 :835591 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/05/18e72ae4540f37feb5662fba577b27
+2022-08-12 22:25:15,286 INFO    SenderThread:835591 [sender.py:send_request_log_artifact():1005] logged artifact run-riporgf9-lin_df - {'id': 'QXJ0aWZhY3Q6MTcxOTk4MTYz', 'digest': 'a3fdfd6ad4bf5379c67cc75c32da2e22', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzMxNzE2', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-12 22:25:15,287 DEBUG   SenderThread:835591 [sender.py:send():232] send: files
+2022-08-12 22:25:15,287 INFO    SenderThread:835591 [sender.py:_save_file():948] saving file media/table/lin_df_0_47b884f6b8daa050e882.table.json with policy now
+2022-08-12 22:25:15,288 DEBUG   SenderThread:835591 [sender.py:send():232] send: history
+2022-08-12 22:25:15,289 DEBUG   SenderThread:835591 [sender.py:send():232] send: summary
+2022-08-12 22:25:15,293 INFO    SenderThread:835591 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:25:15,293 DEBUG   SenderThread:835591 [sender.py:send():232] send: stats
+2022-08-12 22:25:15,805 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/wandb-summary.json
+2022-08-12 22:25:15,916 INFO    Thread-21 :835591 [upload_job.py:push():132] Uploaded file /tmp/tmpc7nibjqnwandb/1zp2qn53-media/table/lin_df_0_47b884f6b8daa050e882.table.json
+2022-08-12 22:25:21,870 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:25:21,871 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:25:33,818 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/config.yaml
+2022-08-12 22:25:37,078 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:25:37,078 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:25:52,274 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:25:52,275 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:26:07,481 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:26:07,482 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:26:22,704 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:26:22,704 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:26:37,904 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:26:37,904 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:26:53,095 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:26:53,096 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:27:08,304 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:27:08,304 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:27:23,510 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:27:23,510 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:27:38,716 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:27:38,717 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:27:53,942 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:27:53,943 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:28:09,150 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:28:09,150 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:28:24,355 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:28:24,355 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:28:39,562 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:28:39,563 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:28:54,771 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:28:54,771 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:29:09,985 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:29:09,986 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:29:25,187 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:29:25,188 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:29:40,401 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:29:40,401 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:29:55,646 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:29:55,647 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:30:10,851 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:30:10,851 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:30:26,077 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:30:26,078 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:30:41,288 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:30:41,289 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:30:56,513 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:30:56,514 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:31:11,724 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:31:11,724 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:31:26,919 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:31:26,920 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:31:42,122 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:31:42,123 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:31:57,332 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:31:57,333 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:32:12,540 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:32:12,541 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:32:27,746 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:32:27,746 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:32:42,944 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:32:42,945 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:32:58,156 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:32:58,157 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:33:13,369 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:33:13,370 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:33:28,678 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:33:28,678 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:33:43,894 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:33:43,894 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:33:59,133 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:33:59,133 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:34:14,337 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:34:14,338 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:34:29,556 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:34:29,556 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:34:44,763 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:34:44,763 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:34:59,959 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:34:59,959 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:35:15,161 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:35:15,162 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:35:30,359 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:35:30,360 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:35:45,572 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:35:45,572 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:36:00,766 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:36:00,767 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:36:15,990 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:36:15,990 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:36:31,198 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:36:31,199 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:36:46,416 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:36:46,416 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:37:01,609 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:37:01,610 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:37:16,814 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:37:16,814 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:37:32,032 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:37:32,033 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:37:47,232 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:37:47,233 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:38:02,483 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:38:02,484 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:38:17,695 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:38:17,695 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:38:32,982 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:38:32,982 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:38:48,188 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:38:48,188 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:39:03,398 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:39:03,399 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:39:18,601 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:39:18,602 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:39:33,810 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:39:33,810 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:39:49,019 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:39:49,019 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:40:04,260 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:40:04,261 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:40:19,469 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:40:19,470 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:40:34,673 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:40:34,674 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:40:42,091 WARNING MainThread:835591 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-08-12 22:40:42,100 DEBUG   SenderThread:835591 [sender.py:send():232] send: telemetry
+2022-08-12 22:40:42,345 DEBUG   SenderThread:835591 [sender.py:send():232] send: exit
+2022-08-12 22:40:42,346 INFO    SenderThread:835591 [sender.py:send_exit():368] handling exit code: 0
+2022-08-12 22:40:42,346 INFO    SenderThread:835591 [sender.py:send_exit():370] handling runtime: 5
+2022-08-12 22:40:42,350 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:42,351 INFO    SenderThread:835591 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:40:42,351 INFO    SenderThread:835591 [sender.py:send_exit():376] send defer
+2022-08-12 22:40:42,352 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:42,353 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:42,353 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-12 22:40:42,354 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:42,354 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-08-12 22:40:42,354 INFO    SenderThread:835591 [sender.py:transition_state():389] send defer: 1
+2022-08-12 22:40:42,355 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:42,355 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-12 22:40:42,355 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:42,355 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-08-12 22:40:42,356 INFO    SenderThread:835591 [sender.py:transition_state():389] send defer: 2
+2022-08-12 22:40:42,356 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:42,357 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-12 22:40:42,357 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:42,357 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-08-12 22:40:42,357 INFO    SenderThread:835591 [sender.py:transition_state():389] send defer: 3
+2022-08-12 22:40:42,358 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:42,358 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-12 22:40:42,359 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:42,359 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-08-12 22:40:42,359 INFO    SenderThread:835591 [sender.py:transition_state():389] send defer: 4
+2022-08-12 22:40:42,360 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:42,360 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-12 22:40:42,361 DEBUG   SenderThread:835591 [sender.py:send():232] send: summary
+2022-08-12 22:40:42,362 INFO    SenderThread:835591 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:40:42,362 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:42,362 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-08-12 22:40:42,362 INFO    SenderThread:835591 [sender.py:transition_state():389] send defer: 5
+2022-08-12 22:40:42,363 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:42,364 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-12 22:40:42,364 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:42,364 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-08-12 22:40:42,460 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:42,466 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/wandb-summary.json
+2022-08-12 22:40:42,467 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/output.log
+2022-08-12 22:40:42,602 INFO    SenderThread:835591 [sender.py:transition_state():389] send defer: 6
+2022-08-12 22:40:42,602 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:42,603 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:42,603 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-12 22:40:42,603 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:42,604 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-08-12 22:40:42,604 INFO    SenderThread:835591 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-08-12 22:40:42,704 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:43,468 INFO    Thread-7  :835591 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/config.yaml
+2022-08-12 22:40:43,469 INFO    SenderThread:835591 [dir_watcher.py:finish():342] scan: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files
+2022-08-12 22:40:43,470 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/wandb-summary.json wandb-summary.json
+2022-08-12 22:40:43,470 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/config.yaml config.yaml
+2022-08-12 22:40:43,470 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/conda-environment.yaml conda-environment.yaml
+2022-08-12 22:40:43,471 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/output.log output.log
+2022-08-12 22:40:43,471 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/requirements.txt requirements.txt
+2022-08-12 22:40:43,471 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/wandb-metadata.json wandb-metadata.json
+2022-08-12 22:40:43,481 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media/table/knn_df_0_38b6940e334c6006e41c.table.json media/table/knn_df_0_38b6940e334c6006e41c.table.json
+2022-08-12 22:40:43,481 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media/table/stat_df_0_1ad9baadd9b27e143fe4.table.json media/table/stat_df_0_1ad9baadd9b27e143fe4.table.json
+2022-08-12 22:40:43,482 INFO    SenderThread:835591 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/media/table/lin_df_0_47b884f6b8daa050e882.table.json media/table/lin_df_0_47b884f6b8daa050e882.table.json
+2022-08-12 22:40:43,482 INFO    SenderThread:835591 [sender.py:transition_state():389] send defer: 7
+2022-08-12 22:40:43,482 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:43,492 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:43,493 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-12 22:40:43,499 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:43,500 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-08-12 22:40:43,500 INFO    SenderThread:835591 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-12 22:40:43,588 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:43,589 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:43,700 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:43,703 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:43,807 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:43,808 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:43,910 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:43,910 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:44,013 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:44,013 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:44,115 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:44,115 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:44,169 INFO    Thread-26 :835591 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/requirements.txt
+2022-08-12 22:40:44,173 INFO    Thread-24 :835591 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/conda-environment.yaml
+2022-08-12 22:40:44,185 INFO    Thread-22 :835591 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/wandb-summary.json
+2022-08-12 22:40:44,187 INFO    Thread-23 :835591 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/config.yaml
+2022-08-12 22:40:44,192 INFO    Thread-25 :835591 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_222501-riporgf9/files/output.log
+2022-08-12 22:40:44,218 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:44,219 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:44,322 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:40:44,322 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:40:44,394 INFO    Thread-6  :835591 [sender.py:transition_state():389] send defer: 8
+2022-08-12 22:40:44,395 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:40:44,395 INFO    HandlerThread:835591 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-12 22:40:44,395 DEBUG   SenderThread:835591 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:40:44,396 INFO    SenderThread:835591 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-08-12 22:40:44,425 DEBUG   HandlerThread:835591 [handler.py:handle_request():141] handle_request: poll_exit

@@ -1,0 +1,52 @@
+[INFO] compute mappings and stat accuracy
+{0: 8, 1: 4, 2: 5, 3: 2, 4: 2, 5: 3, 6: 4, 7: 4, 8: 1, 9: 4, 10: 7, 11: 3, 12: 7, 13: 1, 14: 9, 15: 5, 16: 7, 17: 1, 18: 4, 19: 0, 20: 2, 21: 6, 22: 3, 23: 0, 24: 9, 25: 5, 26: 5, 27: 7, 28: 3, 29: 9, 30: 0, 31: 8, 32: 1, 33: 6, 34: 9, 35: 8, 36: 5, 37: 2, 38: 6, 39: 8}
+              precision    recall  f1-score   support
+           0       0.88      0.95      0.91       980
+           1       0.88      0.99      0.93      1135
+           2       0.92      0.82      0.87      1032
+           3       0.87      0.77      0.81      1010
+           4       0.73      0.83      0.78       982
+           5       0.76      0.79      0.77       892
+           6       0.89      0.92      0.90       958
+           7       0.86      0.86      0.86      1028
+           8       0.80      0.82      0.81       974
+           9       0.79      0.62      0.70      1009
+    accuracy                           0.84     10000
+   macro avg       0.84      0.84      0.83     10000
+weighted avg       0.84      0.84      0.84     10000
+[INFO] compute kNN accuracy
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/torch/nn/modules/lazy.py:178: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+[LINEAR] epoch 1 loss: 1.2744156122207642 acc: 0.6875:  20%|██▍         | 2/10 [00:01<00:04,  1.86it/s]
+              precision    recall  f1-score   support
+           0       0.97      0.99      0.98       980
+           1       0.96      1.00      0.98      1135
+           2       0.98      0.96      0.97      1032
+           3       0.96      0.96      0.96      1010
+           4       0.97      0.95      0.96       982
+           5       0.97      0.97      0.97       892
+           6       0.97      0.99      0.98       958
+           7       0.96      0.96      0.96      1028
+           8       0.98      0.95      0.96       974
+           9       0.95      0.95      0.95      1009
+    accuracy                           0.97     10000
+   macro avg       0.97      0.97      0.97     10000
+weighted avg       0.97      0.97      0.97     10000
+
+
+[LINEAR] epoch 8 loss: 0.5271205306053162 acc: 0.8854166865348816:  90%|▉| 9/10 [00:04<00:00,  1.76it/s
+              precision    recall  f1-score   support
+           0       0.90      0.94      0.92       980
+           1       0.89      0.96      0.92      1135
+           2       0.87      0.81      0.84      1032
+           3       0.86      0.85      0.85      1010
+           4       0.85      0.87      0.86       982
+           5       0.82      0.76      0.79       892
+           6       0.89      0.92      0.90       958
+           7       0.89      0.89      0.89      1028
+           8       0.82      0.80      0.81       974
+           9       0.81      0.80      0.81      1009
+    accuracy                           0.86     10000
+   macro avg       0.86      0.86      0.86     10000
+
+[LINEAR] epoch 9 loss: 0.6057361960411072 acc: 0.84375: 100%|██████████| 10/10 [00:05<00:00,  1.83it/s]

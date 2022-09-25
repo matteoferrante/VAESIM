@@ -1,0 +1,112 @@
+
+Using cuda:0 device
+Epoch 0: 100%|█| 3/3 [00:01<00:00,  2.50batch/s, loss=0.177, sim_loss=0.0341, recon_loss=0.141, kl_loss
+Computing t-SNE to visualize from 32 to 2 dim - this could take a while..
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1          [-1, 128, 16, 16]           2,176
+      ConvResBlock-2          [-1, 128, 16, 16]               0
+            Conv2d-3            [-1, 256, 8, 8]         524,544
+      ConvResBlock-4            [-1, 256, 8, 8]               0
+            Conv2d-5            [-1, 384, 4, 4]       1,573,248
+      ConvResBlock-6            [-1, 384, 4, 4]               0
+           Flatten-7                 [-1, 6144]               0
+            Linear-8                   [-1, 32]         196,640
+            Linear-9                   [-1, 32]         196,640
+       VAEEncoder-10       [[-1, 32], [-1, 32]]               0
+           Linear-11                  [-1, 512]          16,896
+        Unflatten-12             [-1, 32, 4, 4]               0
+           Linear-13                   [-1, 16]             656
+        Unflatten-14              [-1, 1, 4, 4]               0
+  ConvTranspose2d-15            [-1, 384, 8, 8]         203,136
+      BatchNorm2d-16            [-1, 384, 8, 8]             768
+             GELU-17            [-1, 384, 8, 8]               0
+ConvTransposeBlock-18            [-1, 384, 8, 8]               0
+  ConvTranspose2d-19          [-1, 256, 16, 16]       1,573,120
+      BatchNorm2d-20          [-1, 256, 16, 16]             512
+             GELU-21          [-1, 256, 16, 16]               0
+ConvTransposeBlock-22          [-1, 256, 16, 16]               0
+  ConvTranspose2d-23          [-1, 128, 32, 32]         524,416
+      BatchNorm2d-24          [-1, 128, 32, 32]             256
+             GELU-25          [-1, 128, 32, 32]               0
+ConvTransposeBlock-26          [-1, 128, 32, 32]               0
+  ConvTranspose2d-27            [-1, 1, 32, 32]           1,153
+          Sigmoid-28            [-1, 1, 32, 32]               0
+         cDecoder-29            [-1, 1, 32, 32]               0
+================================================================
+Total params: 4,814,161
+Trainable params: 4,814,161
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 7.66
+Params size (MB): 18.36
+Estimated Total Size (MB): 26.03
+----------------------------------------------------------------
+Using downloaded and verified file: /home/matteo/.medmnist/pneumoniamnist.npz
+Using downloaded and verified file: /home/matteo/.medmnist/pneumoniamnist.npz
+Using downloaded and verified file: /home/matteo/.medmnist/pneumoniamnist.npz
+/home/matteo/Unsupervised/vaesim_baselines/VAESIM/../../NeuroGEN_Pytorch/utils/callbacks.py:158: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  c=torch.nn.functional.softmax(logprobs/0.25)
+Epoch 1: 100%|█| 3/3 [00:01<00:00,  2.61batch/s, loss=0.548, sim_loss=0.436, recon_loss=0.105, kl_loss=
+Epoch 2: 100%|█| 3/3 [00:01<00:00,  2.89batch/s, loss=0.575, sim_loss=0.494, recon_loss=0.0705, kl_loss
+Epoch 3: 100%|█| 3/3 [00:01<00:00,  3.00batch/s, loss=0.493, sim_loss=0.434, recon_loss=0.0518, kl_loss
+Epoch 4: 100%|█| 3/3 [00:01<00:00,  2.85batch/s, loss=0.421, sim_loss=0.37, recon_loss=0.0426, kl_loss=
+Epoch 5: 100%|█| 3/3 [00:01<00:00,  2.69batch/s, loss=0.272, sim_loss=0.226, recon_loss=0.0376, kl_loss
+Epoch 6: 100%|█| 3/3 [00:01<00:00,  2.72batch/s, loss=0.183, sim_loss=0.141, recon_loss=0.0335, kl_loss
+Epoch 7: 100%|█| 3/3 [00:01<00:00,  2.77batch/s, loss=0.136, sim_loss=0.0983, recon_loss=0.0303, kl_los
+Epoch 8: 100%|█| 3/3 [00:01<00:00,  2.77batch/s, loss=0.108, sim_loss=0.0735, recon_loss=0.0276, kl_los
+Epoch 9: 100%|█| 3/3 [00:01<00:00,  2.77batch/s, loss=0.0987, sim_loss=0.0661, recon_loss=0.0259, kl_lo
+Epoch 10: 100%|█| 3/3 [00:01<00:00,  2.64batch/s, loss=0.0742, sim_loss=0.044, recon_loss=0.0243, kl_lo
+Epoch 11: 100%|█| 3/3 [00:01<00:00,  2.54batch/s, loss=0.0733, sim_loss=0.0438, recon_loss=0.0234, kl_l
+Epoch 12: 100%|█| 3/3 [00:01<00:00,  2.72batch/s, loss=0.0751, sim_loss=0.0467, recon_loss=0.0227, kl_l
+Epoch 13: 100%|█| 3/3 [00:01<00:00,  2.75batch/s, loss=0.0816, sim_loss=0.0548, recon_loss=0.0212, kl_l
+Epoch 14: 100%|█| 3/3 [00:01<00:00,  2.94batch/s, loss=0.087, sim_loss=0.0613, recon_loss=0.0206, kl_lo
+Epoch 15: 100%|█| 3/3 [00:01<00:00,  2.73batch/s, loss=0.0854, sim_loss=0.0604, recon_loss=0.02, kl_los
+Epoch 16: 100%|█| 3/3 [00:01<00:00,  2.76batch/s, loss=0.0979, sim_loss=0.0737, recon_loss=0.0196, kl_l
+Epoch 17: 100%|█| 3/3 [00:01<00:00,  2.67batch/s, loss=0.103, sim_loss=0.0796, recon_loss=0.0188, kl_lo
+Epoch 18: 100%|█| 3/3 [00:01<00:00,  2.66batch/s, loss=0.106, sim_loss=0.0831, recon_loss=0.0184, kl_lo
+Epoch 19: 100%|█| 3/3 [00:01<00:00,  2.73batch/s, loss=0.0978, sim_loss=0.0754, recon_loss=0.0182, kl_l
+Epoch 20: 100%|█| 3/3 [00:01<00:00,  2.74batch/s, loss=0.0907, sim_loss=0.0683, recon_loss=0.0184, kl_l
+Epoch 21: 100%|█| 3/3 [00:01<00:00,  2.90batch/s, loss=0.0967, sim_loss=0.0751, recon_loss=0.0173, kl_l
+Epoch 22: 100%|█| 3/3 [00:01<00:00,  2.87batch/s, loss=0.101, sim_loss=0.0795, recon_loss=0.0173, kl_lo
+Epoch 23: 100%|█| 3/3 [00:00<00:00,  3.20batch/s, loss=0.0955, sim_loss=0.0741, recon_loss=0.0173, kl_l
+Epoch 24: 100%|█| 3/3 [00:01<00:00,  2.57batch/s, loss=0.0989, sim_loss=0.0782, recon_loss=0.0168, kl_l
+Epoch 25: 100%|█| 3/3 [00:01<00:00,  2.81batch/s, loss=0.105, sim_loss=0.0841, recon_loss=0.0167, kl_lo
+Epoch 26: 100%|█| 3/3 [00:01<00:00,  2.84batch/s, loss=0.0903, sim_loss=0.0701, recon_loss=0.016, kl_lo
+Epoch 27: 100%|█| 3/3 [00:01<00:00,  2.88batch/s, loss=0.0862, sim_loss=0.0659, recon_loss=0.0163, kl_l
+Epoch 28: 100%|█| 3/3 [00:01<00:00,  2.84batch/s, loss=0.0925, sim_loss=0.0724, recon_loss=0.0162, kl_l
+Epoch 29: 100%|█| 3/3 [00:01<00:00,  2.93batch/s, loss=0.0928, sim_loss=0.0727, recon_loss=0.016, kl_lo
+Epoch 30: 100%|█| 3/3 [00:00<00:00,  3.20batch/s, loss=0.115, sim_loss=0.0952, recon_loss=0.0159, kl_lo
+Epoch 31: 100%|█| 3/3 [00:00<00:00,  3.12batch/s, loss=0.117, sim_loss=0.097, recon_loss=0.0161, kl_los
+Epoch 32: 100%|█| 3/3 [00:01<00:00,  2.85batch/s, loss=0.12, sim_loss=0.1, recon_loss=0.0158, kl_loss=0
+Epoch 33: 100%|█| 3/3 [00:01<00:00,  2.95batch/s, loss=0.106, sim_loss=0.0862, recon_loss=0.0161, kl_lo
+Epoch 34: 100%|█| 3/3 [00:01<00:00,  2.65batch/s, loss=0.125, sim_loss=0.105, recon_loss=0.0158, kl_los
+Epoch 35: 100%|█| 3/3 [00:01<00:00,  2.85batch/s, loss=0.109, sim_loss=0.0891, recon_loss=0.016, kl_los
+Epoch 36: 100%|█| 3/3 [00:01<00:00,  2.93batch/s, loss=0.117, sim_loss=0.0975, recon_loss=0.0155, kl_lo
+Epoch 37: 100%|█| 3/3 [00:01<00:00,  2.82batch/s, loss=0.123, sim_loss=0.104, recon_loss=0.0155, kl_los
+Epoch 38: 100%|█| 3/3 [00:01<00:00,  2.95batch/s, loss=0.126, sim_loss=0.106, recon_loss=0.0154, kl_los
+Epoch 39: 100%|█| 3/3 [00:01<00:00,  2.86batch/s, loss=0.121, sim_loss=0.101, recon_loss=0.0153, kl_los
+Epoch 40: 100%|█| 3/3 [00:01<00:00,  2.88batch/s, loss=0.106, sim_loss=0.0869, recon_loss=0.0152, kl_lo
+Epoch 41: 100%|█| 3/3 [00:01<00:00,  2.91batch/s, loss=0.136, sim_loss=0.117, recon_loss=0.0151, kl_los
+Epoch 42: 100%|█| 3/3 [00:01<00:00,  2.89batch/s, loss=0.139, sim_loss=0.119, recon_loss=0.0155, kl_los
+Epoch 43: 100%|█| 3/3 [00:01<00:00,  2.88batch/s, loss=0.14, sim_loss=0.121, recon_loss=0.0154, kl_loss
+Epoch 44: 100%|█| 3/3 [00:01<00:00,  2.86batch/s, loss=0.136, sim_loss=0.117, recon_loss=0.0152, kl_los
+Epoch 45: 100%|█| 3/3 [00:01<00:00,  2.77batch/s, loss=0.118, sim_loss=0.0987, recon_loss=0.0151, kl_lo
+Epoch 46: 100%|█| 3/3 [00:01<00:00,  2.47batch/s, loss=0.138, sim_loss=0.119, recon_loss=0.015, kl_loss
+Epoch 47: 100%|█| 3/3 [00:01<00:00,  2.73batch/s, loss=0.138, sim_loss=0.119, recon_loss=0.0154, kl_los
+Epoch 48: 100%|█| 3/3 [00:01<00:00,  2.69batch/s, loss=0.111, sim_loss=0.0922, recon_loss=0.0149, kl_lo
+Epoch 49: 100%|█| 3/3 [00:01<00:00,  2.63batch/s, loss=0.121, sim_loss=0.102, recon_loss=0.0152, kl_los
+Epoch 50: 100%|█| 3/3 [00:01<00:00,  2.86batch/s, loss=0.125, sim_loss=0.106, recon_loss=0.0154, kl_los
+Epoch 51: 100%|█| 3/3 [00:01<00:00,  2.72batch/s, loss=0.123, sim_loss=0.104, recon_loss=0.0153, kl_los
+Epoch 52: 100%|█| 3/3 [00:01<00:00,  2.67batch/s, loss=0.109, sim_loss=0.0906, recon_loss=0.0151, kl_lo
+Epoch 53: 100%|█| 3/3 [00:01<00:00,  2.67batch/s, loss=0.121, sim_loss=0.101, recon_loss=0.0155, kl_los
+Epoch 54: 100%|█| 3/3 [00:01<00:00,  2.65batch/s, loss=0.111, sim_loss=0.0921, recon_loss=0.015, kl_los
+Epoch 55: 100%|█| 3/3 [00:01<00:00,  2.63batch/s, loss=0.112, sim_loss=0.093, recon_loss=0.0154, kl_los
+Epoch 56: 100%|█| 3/3 [00:01<00:00,  2.62batch/s, loss=0.124, sim_loss=0.105, recon_loss=0.0155, kl_los
+Epoch 57: 100%|█| 3/3 [00:01<00:00,  2.56batch/s, loss=0.131, sim_loss=0.112, recon_loss=0.0153, kl_los
+Epoch 58: 100%|█| 3/3 [00:01<00:00,  2.86batch/s, loss=0.106, sim_loss=0.0875, recon_loss=0.015, kl_los
+Epoch 59: 100%|█| 3/3 [00:01<00:00,  2.83batch/s, loss=0.123, sim_loss=0.104, recon_loss=0.0153, kl_los
+100%|████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  7.97it/s]
+100%|████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 11.09it/s]

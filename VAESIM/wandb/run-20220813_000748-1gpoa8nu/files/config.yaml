@@ -1,0 +1,78 @@
+wandb_version: 1
+
+BS:
+  desc: null
+  value: 2000
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.16
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    python_version: 3.9.12
+    start_time: 1660345668
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      4: 3.9.12
+      5: 0.12.16
+      8:
+      - 1
+      - 2
+      - 5
+dataset:
+  desc: null
+  value: MNIST10
+epochs:
+  desc: null
+  value: 60
+init_lr:
+  desc: null
+  value: 0.0001
+input_dim:
+  desc: null
+  value:
+  - 1
+  - 32
+  - 32
+kl_weight:
+  desc: null
+  value: 0.005
+latent_dim:
+  desc: null
+  value: 32
+n_basis:
+  desc: null
+  value: 40
+reinitialization_probability:
+  desc: null
+  value: 0.0
+sample_cluster:
+  desc: null
+  value: false
+sim_weight:
+  desc: null
+  value: 0.1
+type:
+  desc: null
+  value: VAESIM
+use_kl_loss:
+  desc: null
+  value: true
+use_similarity_loss:
+  desc: null
+  value: true

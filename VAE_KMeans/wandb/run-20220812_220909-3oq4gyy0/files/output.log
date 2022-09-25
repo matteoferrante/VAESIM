@@ -1,0 +1,47 @@
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/neighbors/_classification.py:200: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/torch/nn/modules/lazy.py:178: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+[LINEAR] epoch 9 loss: 1.5719211101531982 acc: 0.5199999809265137: 100%|█| 10/10 [00:00<00:00, 17.11it/
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[INFO] compute mappings and stat accuracy
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 1, 13: 0, 14: 1}
+              precision    recall  f1-score   support
+           0       0.56      0.10      0.17       234
+           1       0.64      0.95      0.76       390
+    accuracy                           0.63       624
+   macro avg       0.60      0.53      0.47       624
+weighted avg       0.61      0.63      0.54       624
+[INFO] compute kNN accuracy
+              precision    recall  f1-score   support
+           0       0.39      0.13      0.19       234
+           1       0.63      0.88      0.73       390
+    accuracy                           0.60       624
+   macro avg       0.51      0.51      0.46       624
+weighted avg       0.54      0.60      0.53       624
+[INFO] compute linear accuracy
+              precision    recall  f1-score   support
+           0       0.45      0.58      0.51       234
+           1       0.67      0.34      0.45       390
+           2       0.00      0.00      0.00         0
+           3       0.00      0.00      0.00         0
+           4       0.00      0.00      0.00         0
+           5       0.00      0.00      0.00         0
+           6       0.00      0.00      0.00         0
+           7       0.00      0.00      0.00         0
+           8       0.00      0.00      0.00         0
+           9       0.00      0.00      0.00         0
+    accuracy                           0.43       624
+   macro avg       0.11      0.09      0.10       624
+weighted avg       0.59      0.43      0.47       624

@@ -1,0 +1,42 @@
+2022-08-12 21:15:39,094 INFO    MainThread:112050 [wandb_setup.py:_flush():76] Loading settings from /home/matteo/.config/wandb/settings
+2022-08-12 21:15:39,094 INFO    MainThread:112050 [wandb_setup.py:_flush():76] Loading settings from /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/settings
+2022-08-12 21:15:39,094 INFO    MainThread:112050 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-08-12 21:15:39,094 INFO    MainThread:112050 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-08-12 21:15:39,094 INFO    MainThread:112050 [wandb_init.py:_log_setup():428] Logging user logs to /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_211539-3v3s11sz/logs/debug.log
+2022-08-12 21:15:39,094 INFO    MainThread:112050 [wandb_init.py:_log_setup():429] Logging internal logs to /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_211539-3v3s11sz/logs/debug-internal.log
+2022-08-12 21:15:39,094 INFO    MainThread:112050 [wandb_init.py:_jupyter_setup():378] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fe19297fbe0>
+2022-08-12 21:15:39,095 INFO    MainThread:112050 [wandb_init.py:init():462] calling init triggers
+2022-08-12 21:15:39,095 INFO    MainThread:112050 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {'dataset': 'MNIST10', 'type': 'VAESIM', 'latent_dim': 32, 'n_basis': 40, 'input_dim': (1, 32, 32), 'epochs': 20, 'BS': 2000, 'init_lr': 0.0001, 'sample_cluster': False, 'use_kl_loss': True, 'use_similarity_loss': True, 'reinitialization_probability': 0.0, 'kl_weight': 0.005, 'sim_weight': 0.1}
+2022-08-12 21:15:39,095 INFO    MainThread:112050 [wandb_init.py:init():515] starting backend
+2022-08-12 21:15:39,095 INFO    MainThread:112050 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-08-12 21:15:39,116 INFO    MainThread:112050 [backend.py:ensure_launched():217] starting backend process...
+2022-08-12 21:15:39,135 INFO    MainThread:112050 [backend.py:ensure_launched():222] started backend process with pid: 114931
+2022-08-12 21:15:39,137 INFO    MainThread:112050 [wandb_init.py:init():525] backend started and connected
+2022-08-12 21:15:39,163 INFO    MainThread:112050 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2022-08-12 21:15:39,164 INFO    MainThread:112050 [wandb_run.py:_label_probe_notebook():1099] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-08-12 21:15:39,164 INFO    MainThread:112050 [wandb_init.py:init():596] updated telemetry
+2022-08-12 21:15:39,167 INFO    MainThread:112050 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-08-12 21:15:40,271 INFO    MainThread:112050 [wandb_run.py:_on_init():1924] communicating current version
+2022-08-12 21:15:40,315 INFO    MainThread:112050 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.13.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-08-12 21:15:40,315 INFO    MainThread:112050 [wandb_init.py:init():662] starting run threads in backend
+2022-08-12 21:15:41,110 WARNING MainThread:112050 [wandb_init.py:init():1020] interrupted
+Traceback (most recent call last):
+  File "/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 673, in init
+    _ = backend.interface.communicate_run_start(run_obj)
+  File "/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 234, in communicate_run_start
+    result = self._communicate_run_start(run_start)
+  File "/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 440, in _communicate_run_start
+    result = self._communicate(rec)
+  File "/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/home/matteo/anaconda3/envs/pytorch/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/matteo/anaconda3/envs/pytorch/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

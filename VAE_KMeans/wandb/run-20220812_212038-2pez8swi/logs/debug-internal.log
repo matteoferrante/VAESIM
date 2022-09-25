@@ -1,0 +1,180 @@
+2022-08-12 21:20:38,813 INFO    MainThread:170252 [internal.py:wandb_internal():90] W&B internal server running at pid: 170252, started at: 2022-08-12 21:20:38.813428
+2022-08-12 21:20:38,817 INFO    WriterThread:170252 [datastore.py:open_for_write():75] open: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/run-2pez8swi.wandb
+2022-08-12 21:20:38,818 DEBUG   SenderThread:170252 [sender.py:send():232] send: header
+2022-08-12 21:20:38,818 DEBUG   SenderThread:170252 [sender.py:send():232] send: run
+2022-08-12 21:20:39,069 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: check_version
+2022-08-12 21:20:39,078 INFO    SenderThread:170252 [dir_watcher.py:__init__():197] watching files in: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files
+2022-08-12 21:20:39,078 INFO    SenderThread:170252 [sender.py:_start_run_threads():811] run started: 2pez8swi with start time 1660335638
+2022-08-12 21:20:39,078 DEBUG   SenderThread:170252 [sender.py:send():232] send: summary
+2022-08-12 21:20:39,079 INFO    SenderThread:170252 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 21:20:39,079 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: check_version
+2022-08-12 21:20:39,127 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: run_start
+2022-08-12 21:20:39,139 DEBUG   HandlerThread:170252 [meta.py:__init__():35] meta init
+2022-08-12 21:20:39,140 DEBUG   HandlerThread:170252 [meta.py:__init__():49] meta init done
+2022-08-12 21:20:39,140 DEBUG   HandlerThread:170252 [meta.py:probe():209] probe
+2022-08-12 21:20:39,147 DEBUG   HandlerThread:170252 [git.py:repo():29] git repository is invalid
+2022-08-12 21:20:39,147 DEBUG   HandlerThread:170252 [meta.py:_save_pip():53] save pip
+2022-08-12 21:20:39,148 DEBUG   HandlerThread:170252 [meta.py:_save_pip():67] save pip done
+2022-08-12 21:20:39,148 DEBUG   HandlerThread:170252 [meta.py:_save_conda():74] save conda
+2022-08-12 21:20:40,080 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/requirements.txt
+2022-08-12 21:20:40,080 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/conda-environment.yaml
+2022-08-12 21:20:40,081 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/wandb-summary.json
+2022-08-12 21:20:42,549 DEBUG   HandlerThread:170252 [meta.py:_save_conda():84] save conda done
+2022-08-12 21:20:42,549 DEBUG   HandlerThread:170252 [meta.py:probe():247] probe done
+2022-08-12 21:20:42,742 DEBUG   SenderThread:170252 [sender.py:send():232] send: files
+2022-08-12 21:20:42,742 INFO    SenderThread:170252 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-08-12 21:20:42,749 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 21:20:42,749 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 21:20:42,754 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 21:20:42,754 INFO    HandlerThread:170252 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 21:20:42,824 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 21:20:42,824 INFO    HandlerThread:170252 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 21:20:42,942 DEBUG   SenderThread:170252 [sender.py:send():232] send: telemetry
+2022-08-12 21:20:42,942 DEBUG   SenderThread:170252 [sender.py:send():232] send: stats
+2022-08-12 21:20:43,080 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/conda-environment.yaml
+2022-08-12 21:20:43,081 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:20:43,081 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/wandb-metadata.json
+2022-08-12 21:20:43,428 INFO    Thread-11 :170252 [upload_job.py:push():132] Uploaded file /tmp/tmppn46n7qewandb/3a349bpx-wandb-metadata.json
+2022-08-12 21:20:45,081 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:20:57,096 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:20:57,946 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 21:20:57,946 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 21:20:59,098 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:21:01,099 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:21:03,107 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:21:03,108 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-12 21:21:03,109 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: log_artifact
+2022-08-12 21:21:03,772 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-12 21:21:04,057 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-12 21:21:04,084 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 21:21:04,087 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 21:21:04,088 INFO    HandlerThread:170252 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 21:21:04,108 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/media/table/knn_df_0_fc5f4069b3d1f10eff14.table.json
+2022-08-12 21:21:04,108 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/media/table/lin_df_0_4b5bb1ea419b6ea37e64.table.json
+2022-08-12 21:21:04,108 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/media/table/stat_df_0_cd798ba3ad88ad3b8013.table.json
+2022-08-12 21:21:04,109 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/media/table
+2022-08-12 21:21:04,109 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/media
+2022-08-12 21:21:04,831 INFO    Thread-14 :170252 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/c4/57d29fa048a273d4c3cca71d52d251
+2022-08-12 21:21:05,109 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:21:06,884 INFO    SenderThread:170252 [sender.py:send_request_log_artifact():1005] logged artifact run-2pez8swi-stat_df - {'id': 'QXJ0aWZhY3Q6MTcxOTYyMTky', 'digest': 'e3055dd7f1b17d54cd07b2ee622c2e69', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzI3NzE3', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-12 21:21:06,885 DEBUG   SenderThread:170252 [sender.py:send():232] send: files
+2022-08-12 21:21:06,885 INFO    SenderThread:170252 [sender.py:_save_file():948] saving file media/table/stat_df_0_cd798ba3ad88ad3b8013.table.json with policy now
+2022-08-12 21:21:06,886 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: log_artifact
+2022-08-12 21:21:07,544 INFO    Thread-15 :170252 [upload_job.py:push():132] Uploaded file /tmp/tmppn46n7qewandb/1vc73140-media/table/stat_df_0_cd798ba3ad88ad3b8013.table.json
+2022-08-12 21:21:08,998 INFO    Thread-17 :170252 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/ec/a6ccb14ffa83dea9547decdc23cc64
+2022-08-12 21:21:10,080 INFO    SenderThread:170252 [sender.py:send_request_log_artifact():1005] logged artifact run-2pez8swi-knn_df - {'id': 'QXJ0aWZhY3Q6MTcxOTYyMjEy', 'digest': '5c08a1ca27b2550fcda62dea04d5e27f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzI3NzE5', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-12 21:21:10,351 DEBUG   SenderThread:170252 [sender.py:send():232] send: files
+2022-08-12 21:21:10,351 INFO    SenderThread:170252 [sender.py:_save_file():948] saving file media/table/knn_df_0_fc5f4069b3d1f10eff14.table.json with policy now
+2022-08-12 21:21:10,352 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: log_artifact
+2022-08-12 21:21:11,010 INFO    Thread-18 :170252 [upload_job.py:push():132] Uploaded file /tmp/tmppn46n7qewandb/2u2t20hd-media/table/knn_df_0_fc5f4069b3d1f10eff14.table.json
+2022-08-12 21:21:11,114 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/config.yaml
+2022-08-12 21:21:11,758 INFO    Thread-20 :170252 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/7a/187f32df9ca08bbbe003dcd0ad460a
+2022-08-12 21:21:12,915 INFO    SenderThread:170252 [sender.py:send_request_log_artifact():1005] logged artifact run-2pez8swi-lin_df - {'id': 'QXJ0aWZhY3Q6MTcxOTYyMjM5', 'digest': '4303c18a8b8697e84568429922176b20', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzI3NzI0', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-12 21:21:12,915 DEBUG   SenderThread:170252 [sender.py:send():232] send: files
+2022-08-12 21:21:12,915 INFO    SenderThread:170252 [sender.py:_save_file():948] saving file media/table/lin_df_0_4b5bb1ea419b6ea37e64.table.json with policy now
+2022-08-12 21:21:12,916 DEBUG   SenderThread:170252 [sender.py:send():232] send: history
+2022-08-12 21:21:12,917 DEBUG   SenderThread:170252 [sender.py:send():232] send: summary
+2022-08-12 21:21:12,922 INFO    SenderThread:170252 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 21:21:12,923 DEBUG   SenderThread:170252 [sender.py:send():232] send: stats
+2022-08-12 21:21:13,115 INFO    Thread-7  :170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/wandb-summary.json
+2022-08-12 21:21:13,161 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 21:21:13,162 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 21:21:13,588 INFO    Thread-21 :170252 [upload_job.py:push():132] Uploaded file /tmp/tmppn46n7qewandb/wzgsqhrp-media/table/lin_df_0_4b5bb1ea419b6ea37e64.table.json
+2022-08-12 21:21:28,410 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 21:21:28,411 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 21:21:32,926 WARNING MainThread:170252 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-08-12 21:21:32,931 DEBUG   SenderThread:170252 [sender.py:send():232] send: telemetry
+2022-08-12 21:21:33,430 DEBUG   SenderThread:170252 [sender.py:send():232] send: exit
+2022-08-12 21:21:33,431 INFO    SenderThread:170252 [sender.py:send_exit():368] handling exit code: 0
+2022-08-12 21:21:33,431 INFO    SenderThread:170252 [sender.py:send_exit():370] handling runtime: 25
+2022-08-12 21:21:33,436 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:33,437 INFO    SenderThread:170252 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 21:21:33,437 INFO    SenderThread:170252 [sender.py:send_exit():376] send defer
+2022-08-12 21:21:33,438 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:33,439 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:33,439 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-12 21:21:33,440 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:33,440 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-08-12 21:21:33,440 INFO    SenderThread:170252 [sender.py:transition_state():389] send defer: 1
+2022-08-12 21:21:33,441 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:33,441 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-12 21:21:33,441 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:33,441 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-08-12 21:21:33,441 INFO    SenderThread:170252 [sender.py:transition_state():389] send defer: 2
+2022-08-12 21:21:33,442 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:33,442 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-12 21:21:33,443 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:33,443 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-08-12 21:21:33,443 INFO    SenderThread:170252 [sender.py:transition_state():389] send defer: 3
+2022-08-12 21:21:33,444 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:33,444 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-12 21:21:33,444 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:33,445 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-08-12 21:21:33,445 INFO    SenderThread:170252 [sender.py:transition_state():389] send defer: 4
+2022-08-12 21:21:33,445 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:33,446 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-12 21:21:33,447 DEBUG   SenderThread:170252 [sender.py:send():232] send: summary
+2022-08-12 21:21:33,447 INFO    SenderThread:170252 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 21:21:33,448 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:33,448 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-08-12 21:21:33,448 INFO    SenderThread:170252 [sender.py:transition_state():389] send defer: 5
+2022-08-12 21:21:33,449 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:33,449 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-12 21:21:33,449 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:33,449 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-08-12 21:21:33,550 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:33,726 INFO    SenderThread:170252 [sender.py:transition_state():389] send defer: 6
+2022-08-12 21:21:33,727 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:33,727 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:33,728 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-12 21:21:33,728 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:33,729 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-08-12 21:21:33,729 INFO    SenderThread:170252 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-08-12 21:21:33,831 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:34,120 INFO    SenderThread:170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/config.yaml
+2022-08-12 21:21:34,121 INFO    SenderThread:170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:21:34,121 INFO    SenderThread:170252 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/wandb-summary.json
+2022-08-12 21:21:34,121 INFO    SenderThread:170252 [dir_watcher.py:finish():342] scan: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files
+2022-08-12 21:21:34,122 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/wandb-summary.json wandb-summary.json
+2022-08-12 21:21:34,122 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/config.yaml config.yaml
+2022-08-12 21:21:34,128 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/conda-environment.yaml conda-environment.yaml
+2022-08-12 21:21:34,129 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log output.log
+2022-08-12 21:21:34,129 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/requirements.txt requirements.txt
+2022-08-12 21:21:34,130 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/wandb-metadata.json wandb-metadata.json
+2022-08-12 21:21:34,140 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/media/table/knn_df_0_fc5f4069b3d1f10eff14.table.json media/table/knn_df_0_fc5f4069b3d1f10eff14.table.json
+2022-08-12 21:21:34,141 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/media/table/lin_df_0_4b5bb1ea419b6ea37e64.table.json media/table/lin_df_0_4b5bb1ea419b6ea37e64.table.json
+2022-08-12 21:21:34,141 INFO    SenderThread:170252 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/media/table/stat_df_0_cd798ba3ad88ad3b8013.table.json media/table/stat_df_0_cd798ba3ad88ad3b8013.table.json
+2022-08-12 21:21:34,141 INFO    SenderThread:170252 [sender.py:transition_state():389] send defer: 7
+2022-08-12 21:21:34,142 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:34,154 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:34,154 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-12 21:21:34,155 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:34,155 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-08-12 21:21:34,156 INFO    SenderThread:170252 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-12 21:21:34,257 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:34,258 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:34,395 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:34,403 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:34,507 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:34,508 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:34,613 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:34,614 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:34,717 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:34,718 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:34,818 INFO    Thread-25 :170252 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/output.log
+2022-08-12 21:21:34,823 INFO    Thread-24 :170252 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/conda-environment.yaml
+2022-08-12 21:21:34,824 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:34,825 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:34,836 INFO    Thread-23 :170252 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/config.yaml
+2022-08-12 21:21:34,841 INFO    Thread-26 :170252 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/requirements.txt
+2022-08-12 21:21:34,858 INFO    Thread-22 :170252 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAE_KMeans/wandb/run-20220812_212038-2pez8swi/files/wandb-summary.json
+2022-08-12 21:21:34,928 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:34,929 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:35,032 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 21:21:35,032 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 21:21:35,058 INFO    Thread-6  :170252 [sender.py:transition_state():389] send defer: 8
+2022-08-12 21:21:35,060 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 21:21:35,060 INFO    HandlerThread:170252 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-12 21:21:35,060 DEBUG   SenderThread:170252 [sender.py:send_request():246] send_request: defer
+2022-08-12 21:21:35,060 INFO    SenderThread:170252 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-08-12 21:21:35,136 DEBUG   HandlerThread:170252 [handler.py:handle_request():141] handle_request: poll_exit

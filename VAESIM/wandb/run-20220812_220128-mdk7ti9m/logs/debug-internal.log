@@ -1,0 +1,935 @@
+2022-08-12 22:01:29,490 INFO    MainThread:592194 [internal.py:wandb_internal():90] W&B internal server running at pid: 592194, started at: 2022-08-12 22:01:29.490069
+2022-08-12 22:01:29,492 INFO    WriterThread:592194 [datastore.py:open_for_write():75] open: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/run-mdk7ti9m.wandb
+2022-08-12 22:01:29,494 DEBUG   SenderThread:592194 [sender.py:send():232] send: header
+2022-08-12 22:01:29,494 DEBUG   SenderThread:592194 [sender.py:send():232] send: run
+2022-08-12 22:01:29,722 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: check_version
+2022-08-12 22:01:29,726 INFO    SenderThread:592194 [dir_watcher.py:__init__():197] watching files in: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files
+2022-08-12 22:01:29,726 INFO    SenderThread:592194 [sender.py:_start_run_threads():811] run started: mdk7ti9m with start time 1660338088
+2022-08-12 22:01:29,726 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:01:29,726 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:01:29,727 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: check_version
+2022-08-12 22:01:29,759 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: run_start
+2022-08-12 22:01:29,765 DEBUG   HandlerThread:592194 [meta.py:__init__():35] meta init
+2022-08-12 22:01:29,765 DEBUG   HandlerThread:592194 [meta.py:__init__():49] meta init done
+2022-08-12 22:01:29,765 DEBUG   HandlerThread:592194 [meta.py:probe():209] probe
+2022-08-12 22:01:29,771 DEBUG   HandlerThread:592194 [git.py:repo():29] git repository is invalid
+2022-08-12 22:01:29,771 DEBUG   HandlerThread:592194 [meta.py:_save_pip():53] save pip
+2022-08-12 22:01:29,772 DEBUG   HandlerThread:592194 [meta.py:_save_pip():67] save pip done
+2022-08-12 22:01:29,772 DEBUG   HandlerThread:592194 [meta.py:_save_conda():74] save conda
+2022-08-12 22:01:30,728 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/requirements.txt
+2022-08-12 22:01:30,729 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:01:30,729 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/conda-environment.yaml
+2022-08-12 22:01:32,732 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/conda-environment.yaml
+2022-08-12 22:01:33,018 DEBUG   HandlerThread:592194 [meta.py:_save_conda():84] save conda done
+2022-08-12 22:01:33,018 DEBUG   HandlerThread:592194 [meta.py:probe():247] probe done
+2022-08-12 22:01:33,185 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:01:33,185 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-08-12 22:01:33,202 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:01:33,202 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:01:33,209 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:01:33,209 INFO    HandlerThread:592194 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:01:33,342 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:01:33,342 INFO    HandlerThread:592194 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:01:33,395 DEBUG   SenderThread:592194 [sender.py:send():232] send: telemetry
+2022-08-12 22:01:33,396 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:01:33,733 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:33,734 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-metadata.json
+2022-08-12 22:01:33,823 INFO    Thread-11 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2nqty1ew-wandb-metadata.json
+2022-08-12 22:01:37,664 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:01:37,664 INFO    HandlerThread:592194 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:01:37,788 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:01:37,788 INFO    HandlerThread:592194 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:01:37,790 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:01:39,073 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:01:39,073 INFO    HandlerThread:592194 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:01:39,178 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:01:39,179 INFO    HandlerThread:592194 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:01:39,179 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:01:39,180 INFO    HandlerThread:592194 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:01:39,236 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:01:39,236 INFO    HandlerThread:592194 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:01:39,237 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:01:39,237 INFO    HandlerThread:592194 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:01:39,287 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:01:39,287 INFO    HandlerThread:592194 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:01:39,288 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:01:39,288 INFO    HandlerThread:592194 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:01:39,337 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:01:39,337 INFO    HandlerThread:592194 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:01:39,339 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:01:39,340 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:01:39,341 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:01:39,341 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:01:39,737 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:41,738 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:43,739 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:45,741 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:47,741 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:48,412 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:01:48,412 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:01:49,743 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:51,196 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:01:51,197 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:01:51,197 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_0_2feec36eba3b30aa7b84.png with policy now
+2022-08-12 22:01:51,198 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:01:51,199 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:01:51,200 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:01:51,238 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:01:51,238 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_1_38d6f836a7bd27b755d1.png with policy now
+2022-08-12 22:01:51,239 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:01:51,241 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:01:51,242 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:01:51,244 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:01:51,278 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:01:51,280 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:01:51,280 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_2_38d6f836a7bd27b755d1.png with policy now
+2022-08-12 22:01:51,280 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:01:51,281 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:01:51,281 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:01:51,745 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:51,746 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:01:51,746 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_1_38d6f836a7bd27b755d1.png
+2022-08-12 22:01:51,747 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_2_38d6f836a7bd27b755d1.png
+2022-08-12 22:01:51,747 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_0_2feec36eba3b30aa7b84.png
+2022-08-12 22:01:51,747 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:01:51,747 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media
+2022-08-12 22:01:51,956 INFO    Thread-19 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/8p72ch2d-media/images/Prototypes_1_38d6f836a7bd27b755d1.png
+2022-08-12 22:01:51,996 INFO    Thread-20 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2kevv9zi-media/images/image_sampled_2_38d6f836a7bd27b755d1.png
+2022-08-12 22:01:52,065 INFO    Thread-18 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/anm4z5nt-media/images/image_0_2feec36eba3b30aa7b84.png
+2022-08-12 22:01:53,747 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:55,749 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:57,751 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:01:59,752 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:00,753 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/config.yaml
+2022-08-12 22:02:01,754 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:03,347 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:03,348 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:03,349 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_3_190c207d2be3e2775311.png with policy now
+2022-08-12 22:02:03,349 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:03,350 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:03,351 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:03,365 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:03,365 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:03,367 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_4_6f97e869e46c52f8ebfc.png with policy now
+2022-08-12 22:02:03,368 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:03,368 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:03,369 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:03,385 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:03,385 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:03,386 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_5_6f97e869e46c52f8ebfc.png with policy now
+2022-08-12 22:02:03,388 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:03,389 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:03,390 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:03,661 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:02:03,662 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:02:03,755 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:03,755 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:02:03,755 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_3_190c207d2be3e2775311.png
+2022-08-12 22:02:03,756 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_4_6f97e869e46c52f8ebfc.png
+2022-08-12 22:02:03,756 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_5_6f97e869e46c52f8ebfc.png
+2022-08-12 22:02:03,756 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:02:04,040 INFO    Thread-22 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2k0sui53-media/images/Prototypes_4_6f97e869e46c52f8ebfc.png
+2022-08-12 22:02:04,090 INFO    Thread-23 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2ybnxfhe-media/images/image_sampled_5_6f97e869e46c52f8ebfc.png
+2022-08-12 22:02:04,235 INFO    Thread-21 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2y06ke9r-media/images/image_3_190c207d2be3e2775311.png
+2022-08-12 22:02:05,757 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:07,758 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:08,324 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:02:09,760 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:11,761 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:13,763 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:15,267 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:15,269 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:15,269 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_6_353d6afd2d717fc388fb.png with policy now
+2022-08-12 22:02:15,270 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:15,270 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:15,272 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:15,284 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:15,284 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:15,285 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_7_d91fa2074cd14bc00a4f.png with policy now
+2022-08-12 22:02:15,286 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:15,287 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:15,288 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:15,302 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:15,303 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:15,303 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_8_d91fa2074cd14bc00a4f.png with policy now
+2022-08-12 22:02:15,304 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:15,305 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:15,305 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:15,765 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:15,766 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:02:15,766 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_6_353d6afd2d717fc388fb.png
+2022-08-12 22:02:15,766 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_7_d91fa2074cd14bc00a4f.png
+2022-08-12 22:02:15,767 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_8_d91fa2074cd14bc00a4f.png
+2022-08-12 22:02:15,767 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:02:15,974 INFO    Thread-25 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3vg2qlik-media/images/Prototypes_7_d91fa2074cd14bc00a4f.png
+2022-08-12 22:02:15,987 INFO    Thread-26 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/12u1uvsl-media/images/image_sampled_8_d91fa2074cd14bc00a4f.png
+2022-08-12 22:02:16,340 INFO    Thread-24 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/6enqopez-media/images/image_6_353d6afd2d717fc388fb.png
+2022-08-12 22:02:17,767 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:18,898 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:02:18,898 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:02:19,768 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:21,770 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:23,771 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:25,773 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:26,908 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:26,910 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:26,910 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_9_a65ec533b6fb728dbc15.png with policy now
+2022-08-12 22:02:26,911 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:26,911 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:26,912 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:26,925 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:26,925 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:26,926 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_10_0ab1bc5576172a9b84f8.png with policy now
+2022-08-12 22:02:26,927 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:26,928 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:26,929 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:26,947 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:26,947 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:26,947 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_11_0ab1bc5576172a9b84f8.png with policy now
+2022-08-12 22:02:26,950 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:26,950 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:26,951 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:27,581 INFO    Thread-28 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/28wlt2mz-media/images/Prototypes_10_0ab1bc5576172a9b84f8.png
+2022-08-12 22:02:27,597 INFO    Thread-29 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1wh1hrzq-media/images/image_sampled_11_0ab1bc5576172a9b84f8.png
+2022-08-12 22:02:27,774 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:27,775 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:02:27,775 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_11_0ab1bc5576172a9b84f8.png
+2022-08-12 22:02:27,776 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_9_a65ec533b6fb728dbc15.png
+2022-08-12 22:02:27,776 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_10_0ab1bc5576172a9b84f8.png
+2022-08-12 22:02:27,776 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:02:27,784 INFO    Thread-27 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3o5iaqkk-media/images/image_9_a65ec533b6fb728dbc15.png
+2022-08-12 22:02:29,777 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:31,779 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:33,781 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:34,229 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:02:34,230 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:02:35,783 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:37,785 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:38,899 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:38,900 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:38,902 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_12_4ce40da46c8c20872fa0.png with policy now
+2022-08-12 22:02:38,902 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:38,903 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:38,904 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:38,913 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:38,914 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:38,915 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_13_69f889a04c53eb23306e.png with policy now
+2022-08-12 22:02:38,916 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:38,917 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:38,918 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:38,928 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:38,929 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:38,930 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_14_69f889a04c53eb23306e.png with policy now
+2022-08-12 22:02:38,931 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:38,932 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:38,933 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:39,305 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:02:39,574 INFO    Thread-31 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2luasqqi-media/images/Prototypes_13_69f889a04c53eb23306e.png
+2022-08-12 22:02:39,595 INFO    Thread-32 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/37ps61bw-media/images/image_sampled_14_69f889a04c53eb23306e.png
+2022-08-12 22:02:39,755 INFO    Thread-30 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1ar95gb7-media/images/image_12_4ce40da46c8c20872fa0.png
+2022-08-12 22:02:39,787 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:39,788 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:02:39,788 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_13_69f889a04c53eb23306e.png
+2022-08-12 22:02:39,788 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_12_4ce40da46c8c20872fa0.png
+2022-08-12 22:02:39,789 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_14_69f889a04c53eb23306e.png
+2022-08-12 22:02:39,789 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:02:41,788 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:43,791 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:45,792 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:47,794 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:49,443 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:02:49,443 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:02:49,485 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:49,499 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:49,515 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:02:49,755 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:49,756 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_15_bfec38f3d069258cd757.png with policy now
+2022-08-12 22:02:49,757 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:49,757 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:49,758 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:49,759 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:49,759 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_16_21046767dd696b7cafb0.png with policy now
+2022-08-12 22:02:49,760 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:49,760 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:49,764 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:49,765 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:02:49,765 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_17_21046767dd696b7cafb0.png with policy now
+2022-08-12 22:02:49,766 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:02:49,766 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:02:49,772 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:02:49,797 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:49,797 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:02:49,797 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_17_21046767dd696b7cafb0.png
+2022-08-12 22:02:49,798 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_16_21046767dd696b7cafb0.png
+2022-08-12 22:02:49,798 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_15_bfec38f3d069258cd757.png
+2022-08-12 22:02:49,798 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:02:50,435 INFO    Thread-35 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/24ox4o9m-media/images/image_sampled_17_21046767dd696b7cafb0.png
+2022-08-12 22:02:50,479 INFO    Thread-34 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2a4ormf3-media/images/Prototypes_16_21046767dd696b7cafb0.png
+2022-08-12 22:02:50,709 INFO    Thread-33 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1ukqb6uw-media/images/image_15_bfec38f3d069258cd757.png
+2022-08-12 22:02:51,799 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:53,802 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:55,804 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:57,807 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:02:59,809 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:00,881 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:00,882 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:00,883 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_18_0cae760117ef26cdbf45.png with policy now
+2022-08-12 22:03:00,884 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:00,884 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:00,885 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:00,897 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:00,898 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:00,898 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_19_9dd37c4fbe303a44c4b2.png with policy now
+2022-08-12 22:03:00,900 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:00,901 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:00,901 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:00,916 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:00,917 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:00,917 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_20_9dd37c4fbe303a44c4b2.png with policy now
+2022-08-12 22:03:00,918 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:00,918 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:00,919 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:01,593 INFO    Thread-38 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3m29crgp-media/images/image_sampled_20_9dd37c4fbe303a44c4b2.png
+2022-08-12 22:03:01,597 INFO    Thread-37 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/240zqtdy-media/images/Prototypes_19_9dd37c4fbe303a44c4b2.png
+2022-08-12 22:03:01,774 INFO    Thread-36 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/17m0m9da-media/images/image_18_0cae760117ef26cdbf45.png
+2022-08-12 22:03:01,812 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:01,813 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:03:01,813 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_18_0cae760117ef26cdbf45.png
+2022-08-12 22:03:01,813 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_19_9dd37c4fbe303a44c4b2.png
+2022-08-12 22:03:01,814 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_20_9dd37c4fbe303a44c4b2.png
+2022-08-12 22:03:01,814 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:03:03,814 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:04,758 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:03:04,759 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:03:05,816 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:07,819 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:09,821 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:10,220 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:03:11,824 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:12,678 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:12,678 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:12,679 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_21_b97fe20961c9925f90c8.png with policy now
+2022-08-12 22:03:12,681 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:12,681 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:12,682 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:12,694 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:12,694 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:12,695 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_22_e3ba62534f1998cc1fbf.png with policy now
+2022-08-12 22:03:12,696 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:12,697 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:12,698 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:12,709 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:12,710 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:12,711 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_23_e3ba62534f1998cc1fbf.png with policy now
+2022-08-12 22:03:12,712 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:12,713 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:12,714 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:12,825 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:03:12,826 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_22_e3ba62534f1998cc1fbf.png
+2022-08-12 22:03:12,826 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_23_e3ba62534f1998cc1fbf.png
+2022-08-12 22:03:12,826 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_21_b97fe20961c9925f90c8.png
+2022-08-12 22:03:12,827 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:03:13,398 INFO    Thread-41 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/mqlxe2jo-media/images/image_sampled_23_e3ba62534f1998cc1fbf.png
+2022-08-12 22:03:13,409 INFO    Thread-40 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/189tp1nu-media/images/Prototypes_22_e3ba62534f1998cc1fbf.png
+2022-08-12 22:03:13,660 INFO    Thread-39 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2wfimfof-media/images/image_21_b97fe20961c9925f90c8.png
+2022-08-12 22:03:13,826 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:15,829 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:17,832 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:19,834 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:19,967 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:03:19,967 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:03:21,835 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:23,838 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:24,440 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:24,440 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:24,441 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_24_463210404818daa170e5.png with policy now
+2022-08-12 22:03:24,441 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:24,442 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:24,443 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:24,455 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:24,456 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:24,456 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_25_d12a93d0a66521869318.png with policy now
+2022-08-12 22:03:24,457 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:24,457 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:24,458 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:24,472 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:24,472 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_26_d12a93d0a66521869318.png with policy now
+2022-08-12 22:03:24,473 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:24,473 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:24,473 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:24,474 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:24,839 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:03:24,840 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_25_d12a93d0a66521869318.png
+2022-08-12 22:03:24,840 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_26_d12a93d0a66521869318.png
+2022-08-12 22:03:24,840 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_24_463210404818daa170e5.png
+2022-08-12 22:03:24,841 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:03:25,160 INFO    Thread-43 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/196wpubw-media/images/Prototypes_25_d12a93d0a66521869318.png
+2022-08-12 22:03:25,271 INFO    Thread-44 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2o1101lk-media/images/image_sampled_26_d12a93d0a66521869318.png
+2022-08-12 22:03:25,454 INFO    Thread-42 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3pomv74q-media/images/image_24_463210404818daa170e5.png
+2022-08-12 22:03:25,841 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:27,843 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:29,846 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:31,849 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:33,852 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:35,181 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:03:35,182 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:03:35,855 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:36,125 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:36,126 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:36,127 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_27_b72884797c3c8223ad1b.png with policy now
+2022-08-12 22:03:36,128 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:36,128 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:36,130 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:36,140 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:36,141 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:36,142 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_28_59f648a237f10110bb0d.png with policy now
+2022-08-12 22:03:36,143 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:36,144 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:36,145 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:36,158 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:36,158 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:36,159 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_29_59f648a237f10110bb0d.png with policy now
+2022-08-12 22:03:36,161 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:36,161 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:36,162 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:36,856 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:03:36,857 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_29_59f648a237f10110bb0d.png
+2022-08-12 22:03:36,857 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_27_b72884797c3c8223ad1b.png
+2022-08-12 22:03:36,858 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_28_59f648a237f10110bb0d.png
+2022-08-12 22:03:36,858 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:03:36,866 INFO    Thread-46 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3hjc1r5p-media/images/Prototypes_28_59f648a237f10110bb0d.png
+2022-08-12 22:03:36,903 INFO    Thread-47 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/vdc4u0su-media/images/image_sampled_29_59f648a237f10110bb0d.png
+2022-08-12 22:03:37,002 INFO    Thread-45 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3mxqflbj-media/images/image_27_b72884797c3c8223ad1b.png
+2022-08-12 22:03:37,858 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:39,861 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:41,231 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:03:41,864 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:43,865 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:45,868 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:47,871 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:48,222 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:48,223 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:48,224 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_30_046027d55a6273559281.png with policy now
+2022-08-12 22:03:48,226 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:48,226 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:48,227 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:48,237 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:48,237 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:48,239 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_31_c400992ca57a03a4ed96.png with policy now
+2022-08-12 22:03:48,240 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:48,240 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:48,241 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:48,252 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:48,253 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:48,254 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_32_c400992ca57a03a4ed96.png with policy now
+2022-08-12 22:03:48,256 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:48,256 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:48,257 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:48,873 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:03:48,874 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_32_c400992ca57a03a4ed96.png
+2022-08-12 22:03:48,874 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_30_046027d55a6273559281.png
+2022-08-12 22:03:48,874 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_31_c400992ca57a03a4ed96.png
+2022-08-12 22:03:48,874 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:03:48,926 INFO    Thread-50 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1e9tqm2w-media/images/image_sampled_32_c400992ca57a03a4ed96.png
+2022-08-12 22:03:48,937 INFO    Thread-49 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/21qphxr1-media/images/Prototypes_31_c400992ca57a03a4ed96.png
+2022-08-12 22:03:49,096 INFO    Thread-48 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/212b25ui-media/images/image_30_046027d55a6273559281.png
+2022-08-12 22:03:49,874 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:50,373 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:03:50,373 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:03:51,878 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:53,881 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:55,884 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:57,886 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:59,766 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:59,767 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:59,768 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_33_395bfc27e96fa52a69ad.png with policy now
+2022-08-12 22:03:59,770 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:59,770 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:59,771 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:59,779 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:59,779 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:59,780 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_34_d6352d5a14cdc4237e69.png with policy now
+2022-08-12 22:03:59,782 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:59,782 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:59,786 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:59,794 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:03:59,794 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:03:59,794 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_35_d6352d5a14cdc4237e69.png with policy now
+2022-08-12 22:03:59,797 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:03:59,797 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:03:59,798 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:03:59,889 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:03:59,890 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:03:59,890 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_35_d6352d5a14cdc4237e69.png
+2022-08-12 22:03:59,890 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_33_395bfc27e96fa52a69ad.png
+2022-08-12 22:03:59,891 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_34_d6352d5a14cdc4237e69.png
+2022-08-12 22:03:59,891 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:04:00,461 INFO    Thread-53 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2muxb7g9-media/images/image_sampled_35_d6352d5a14cdc4237e69.png
+2022-08-12 22:04:00,638 INFO    Thread-51 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1wlk6147-media/images/image_33_395bfc27e96fa52a69ad.png
+2022-08-12 22:04:00,674 INFO    Thread-52 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1i95faf8-media/images/Prototypes_34_d6352d5a14cdc4237e69.png
+2022-08-12 22:04:01,892 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:03,895 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:05,583 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:04:05,584 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:04:05,899 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:08,903 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:10,906 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:11,832 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:11,833 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:11,833 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_36_e3c49c32f414d8e44d0c.png with policy now
+2022-08-12 22:04:11,834 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:11,834 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:11,834 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:11,846 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:11,846 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:11,847 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_37_54353fc417a7f1eb1127.png with policy now
+2022-08-12 22:04:11,849 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:11,850 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:11,851 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:11,860 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:11,861 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:11,862 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_38_54353fc417a7f1eb1127.png with policy now
+2022-08-12 22:04:11,864 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:11,864 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:11,865 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:11,907 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:04:11,908 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_36_e3c49c32f414d8e44d0c.png
+2022-08-12 22:04:11,908 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_38_54353fc417a7f1eb1127.png
+2022-08-12 22:04:11,908 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_37_54353fc417a7f1eb1127.png
+2022-08-12 22:04:11,909 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:04:12,191 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:04:12,518 INFO    Thread-55 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/n9i4pyew-media/images/Prototypes_37_54353fc417a7f1eb1127.png
+2022-08-12 22:04:12,546 INFO    Thread-56 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/30h23tnm-media/images/image_sampled_38_54353fc417a7f1eb1127.png
+2022-08-12 22:04:12,741 INFO    Thread-54 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/330zlu48-media/images/image_36_e3c49c32f414d8e44d0c.png
+2022-08-12 22:04:12,909 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:14,912 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:16,916 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:18,919 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:20,799 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:04:20,799 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:04:20,922 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:22,926 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:23,883 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:23,884 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:23,884 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_39_ad266c03a2dd6dbbf491.png with policy now
+2022-08-12 22:04:23,885 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:23,885 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:23,891 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:23,899 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:23,899 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_40_3f5e7284ab4376893f37.png with policy now
+2022-08-12 22:04:23,899 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:23,901 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:23,901 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:23,901 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:23,916 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:23,916 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_41_3f5e7284ab4376893f37.png with policy now
+2022-08-12 22:04:23,917 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:23,917 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:23,918 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:23,918 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:23,927 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:04:23,928 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_41_3f5e7284ab4376893f37.png
+2022-08-12 22:04:23,928 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_40_3f5e7284ab4376893f37.png
+2022-08-12 22:04:23,928 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_39_ad266c03a2dd6dbbf491.png
+2022-08-12 22:04:23,928 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:04:24,616 INFO    Thread-58 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3bpsh683-media/images/Prototypes_40_3f5e7284ab4376893f37.png
+2022-08-12 22:04:24,627 INFO    Thread-59 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3s7bwkje-media/images/image_sampled_41_3f5e7284ab4376893f37.png
+2022-08-12 22:04:24,798 INFO    Thread-57 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1elbanas-media/images/image_39_ad266c03a2dd6dbbf491.png
+2022-08-12 22:04:24,929 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:26,932 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:28,935 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:30,938 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:32,941 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:34,944 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:35,904 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:35,906 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:35,906 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_42_31e91c3ca4c9cf6f6100.png with policy now
+2022-08-12 22:04:35,908 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:35,909 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:35,910 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:35,919 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:35,919 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:35,921 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_43_07edf41672b6fae39585.png with policy now
+2022-08-12 22:04:35,923 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:35,923 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:35,924 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:35,935 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:35,935 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:35,935 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_44_07edf41672b6fae39585.png with policy now
+2022-08-12 22:04:35,938 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:35,938 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:35,939 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:35,947 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:04:35,947 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_42_31e91c3ca4c9cf6f6100.png
+2022-08-12 22:04:35,947 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_43_07edf41672b6fae39585.png
+2022-08-12 22:04:35,948 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_44_07edf41672b6fae39585.png
+2022-08-12 22:04:35,948 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:04:36,006 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:04:36,007 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:04:36,578 INFO    Thread-61 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3pr1jaeb-media/images/Prototypes_43_07edf41672b6fae39585.png
+2022-08-12 22:04:36,601 INFO    Thread-62 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1troo33p-media/images/image_sampled_44_07edf41672b6fae39585.png
+2022-08-12 22:04:36,748 INFO    Thread-60 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/uagm6d3c-media/images/image_42_31e91c3ca4c9cf6f6100.png
+2022-08-12 22:04:36,949 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:38,953 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:40,956 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:42,959 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:43,120 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:04:44,963 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:46,965 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:47,765 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:47,766 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:47,766 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_45_428743df7371e5fae8b7.png with policy now
+2022-08-12 22:04:47,766 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:47,767 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:47,768 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:47,778 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:47,778 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:47,778 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_46_7ac38a3397f7fe12b75d.png with policy now
+2022-08-12 22:04:47,781 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:47,781 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:47,782 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:47,792 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:47,792 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:47,796 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_47_7ac38a3397f7fe12b75d.png with policy now
+2022-08-12 22:04:47,799 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:47,799 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:47,800 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:47,967 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:04:47,968 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_45_428743df7371e5fae8b7.png
+2022-08-12 22:04:47,968 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_46_7ac38a3397f7fe12b75d.png
+2022-08-12 22:04:47,968 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_47_7ac38a3397f7fe12b75d.png
+2022-08-12 22:04:47,968 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:04:48,483 INFO    Thread-64 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1s339q2n-media/images/Prototypes_46_7ac38a3397f7fe12b75d.png
+2022-08-12 22:04:48,497 INFO    Thread-65 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2s0djpeu-media/images/image_sampled_47_7ac38a3397f7fe12b75d.png
+2022-08-12 22:04:48,664 INFO    Thread-63 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1pxdrbdv-media/images/image_45_428743df7371e5fae8b7.png
+2022-08-12 22:04:48,969 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:50,972 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:51,229 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:04:51,229 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:04:52,976 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:54,978 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:56,981 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:58,984 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:04:59,146 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:59,147 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:59,147 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_48_f4f6b914c0a669ccdb38.png with policy now
+2022-08-12 22:04:59,150 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:59,150 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:59,152 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:59,157 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:59,158 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_49_98778f19960005461707.png with policy now
+2022-08-12 22:04:59,159 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:59,161 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:59,162 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:59,163 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:59,170 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:04:59,171 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:04:59,171 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_50_98778f19960005461707.png with policy now
+2022-08-12 22:04:59,174 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:04:59,174 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:04:59,175 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:04:59,848 INFO    Thread-67 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/24hjuhgw-media/images/Prototypes_49_98778f19960005461707.png
+2022-08-12 22:04:59,851 INFO    Thread-68 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/nv1thebb-media/images/image_sampled_50_98778f19960005461707.png
+2022-08-12 22:04:59,986 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:04:59,987 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_50_98778f19960005461707.png
+2022-08-12 22:04:59,987 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_48_f4f6b914c0a669ccdb38.png
+2022-08-12 22:04:59,988 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_49_98778f19960005461707.png
+2022-08-12 22:04:59,988 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:05:00,002 INFO    Thread-66 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/1364zqlm-media/images/image_48_f4f6b914c0a669ccdb38.png
+2022-08-12 22:05:00,988 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:02,990 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:04,994 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:06,441 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:05:06,441 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:05:06,998 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:09,001 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:11,006 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:11,234 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:11,235 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:11,235 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_51_7eaa9ffe80bda3ce9980.png with policy now
+2022-08-12 22:05:11,236 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:11,236 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:11,237 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:11,250 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:11,251 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:11,252 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_52_c25abc3382692d638c01.png with policy now
+2022-08-12 22:05:11,255 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:11,255 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:11,255 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:11,270 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:11,270 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:11,271 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_53_c25abc3382692d638c01.png with policy now
+2022-08-12 22:05:11,272 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:11,272 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:11,273 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:11,949 INFO    Thread-71 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/27dcz8jc-media/images/image_sampled_53_c25abc3382692d638c01.png
+2022-08-12 22:05:11,971 INFO    Thread-70 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/mt5y5qcc-media/images/Prototypes_52_c25abc3382692d638c01.png
+2022-08-12 22:05:12,008 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:05:12,009 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_51_7eaa9ffe80bda3ce9980.png
+2022-08-12 22:05:12,009 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_53_c25abc3382692d638c01.png
+2022-08-12 22:05:12,009 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_52_c25abc3382692d638c01.png
+2022-08-12 22:05:12,010 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:05:12,106 INFO    Thread-69 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/j6x5p9ww-media/images/image_51_7eaa9ffe80bda3ce9980.png
+2022-08-12 22:05:13,010 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:14,151 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:05:15,014 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:17,018 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:19,023 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:21,026 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:21,645 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:05:21,646 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:05:23,030 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:23,311 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:23,312 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:23,312 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_54_61b1bc68d91f44c436ae.png with policy now
+2022-08-12 22:05:23,313 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:23,313 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:23,314 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:23,324 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:23,324 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_55_d7886ee5ea03bd56554c.png with policy now
+2022-08-12 22:05:23,324 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:23,327 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:23,328 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:23,329 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:23,338 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:23,338 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:23,339 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_56_d7886ee5ea03bd56554c.png with policy now
+2022-08-12 22:05:23,342 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:23,342 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:23,344 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:23,999 INFO    Thread-74 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/2n4ovg2d-media/images/image_sampled_56_d7886ee5ea03bd56554c.png
+2022-08-12 22:05:24,033 INFO    Thread-73 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/xv59h3aa-media/images/Prototypes_55_d7886ee5ea03bd56554c.png
+2022-08-12 22:05:24,035 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:05:24,036 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_54_61b1bc68d91f44c436ae.png
+2022-08-12 22:05:24,036 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_55_d7886ee5ea03bd56554c.png
+2022-08-12 22:05:24,036 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_56_d7886ee5ea03bd56554c.png
+2022-08-12 22:05:24,037 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:05:24,181 INFO    Thread-72 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/6gvw7cuk-media/images/image_54_61b1bc68d91f44c436ae.png
+2022-08-12 22:05:25,037 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:27,041 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:29,046 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:31,050 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:33,054 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:35,058 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:35,319 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:35,321 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:35,321 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_57_734e6b2a398a1d61d7c1.png with policy now
+2022-08-12 22:05:35,324 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:35,324 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:35,326 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:35,333 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:35,334 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:35,335 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/Prototypes_58_8d86eaf950438abdbc38.png with policy now
+2022-08-12 22:05:35,338 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:35,338 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:35,339 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:35,351 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-12 22:05:35,351 DEBUG   SenderThread:592194 [sender.py:send():232] send: files
+2022-08-12 22:05:35,352 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file media/images/image_sampled_59_8d86eaf950438abdbc38.png with policy now
+2022-08-12 22:05:35,353 DEBUG   SenderThread:592194 [sender.py:send():232] send: history
+2022-08-12 22:05:35,353 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:35,354 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:35,402 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:05:35,402 INFO    HandlerThread:592194 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:05:35,474 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:05:35,474 INFO    HandlerThread:592194 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:05:35,475 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:05:36,011 INFO    Thread-76 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/3k3d8zim-media/images/Prototypes_58_8d86eaf950438abdbc38.png
+2022-08-12 22:05:36,022 INFO    Thread-77 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/lyxl5eid-media/images/image_sampled_59_8d86eaf950438abdbc38.png
+2022-08-12 22:05:36,061 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:05:36,061 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_58_8d86eaf950438abdbc38.png
+2022-08-12 22:05:36,062 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_57_734e6b2a398a1d61d7c1.png
+2022-08-12 22:05:36,062 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_59_8d86eaf950438abdbc38.png
+2022-08-12 22:05:36,062 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images
+2022-08-12 22:05:36,196 INFO    Thread-75 :592194 [upload_job.py:push():132] Uploaded file /tmp/tmp7es3vuk5wandb/bg3nhwn1-media/images/image_57_734e6b2a398a1d61d7c1.png
+2022-08-12 22:05:36,861 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-12 22:05:36,861 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: stop_status
+2022-08-12 22:05:37,062 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:39,066 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:41,070 INFO    Thread-7  :592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:41,844 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: pause
+2022-08-12 22:05:41,844 INFO    HandlerThread:592194 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-08-12 22:05:41,920 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: resume
+2022-08-12 22:05:41,920 INFO    HandlerThread:592194 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-08-12 22:05:41,922 DEBUG   SenderThread:592194 [sender.py:send():232] send: telemetry
+2022-08-12 22:05:41,922 DEBUG   SenderThread:592194 [sender.py:send():232] send: telemetry
+2022-08-12 22:05:41,922 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:05:42,408 DEBUG   SenderThread:592194 [sender.py:send():232] send: exit
+2022-08-12 22:05:42,409 INFO    SenderThread:592194 [sender.py:send_exit():368] handling exit code: 0
+2022-08-12 22:05:42,409 INFO    SenderThread:592194 [sender.py:send_exit():370] handling runtime: 252
+2022-08-12 22:05:42,410 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:42,410 INFO    SenderThread:592194 [sender.py:send_exit():376] send defer
+2022-08-12 22:05:42,411 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:42,411 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:42,412 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-12 22:05:42,412 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:42,412 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:42,413 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-08-12 22:05:42,413 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 1
+2022-08-12 22:05:42,414 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:42,414 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-12 22:05:42,518 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:42,518 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-08-12 22:05:42,518 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 2
+2022-08-12 22:05:42,518 DEBUG   SenderThread:592194 [sender.py:send():232] send: stats
+2022-08-12 22:05:42,521 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:42,521 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-12 22:05:42,522 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:42,522 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-08-12 22:05:42,522 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 3
+2022-08-12 22:05:42,523 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:42,523 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-12 22:05:42,523 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:42,523 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-08-12 22:05:42,524 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 4
+2022-08-12 22:05:42,524 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:42,525 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-12 22:05:42,525 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:42,526 DEBUG   SenderThread:592194 [sender.py:send():232] send: summary
+2022-08-12 22:05:42,527 INFO    SenderThread:592194 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-12 22:05:42,527 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:42,527 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-08-12 22:05:42,528 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 5
+2022-08-12 22:05:42,528 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:42,529 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:42,529 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-12 22:05:42,530 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:42,530 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-08-12 22:05:42,631 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:42,782 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 6
+2022-08-12 22:05:42,782 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:42,784 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:42,784 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-12 22:05:42,784 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:42,785 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-08-12 22:05:42,785 INFO    SenderThread:592194 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-08-12 22:05:42,886 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,074 INFO    SenderThread:592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:43,074 INFO    SenderThread:592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/config.yaml
+2022-08-12 22:05:43,074 INFO    SenderThread:592194 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:05:43,076 INFO    SenderThread:592194 [dir_watcher.py:finish():342] scan: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files
+2022-08-12 22:05:43,077 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json wandb-summary.json
+2022-08-12 22:05:43,077 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/config.yaml config.yaml
+2022-08-12 22:05:43,077 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/conda-environment.yaml conda-environment.yaml
+2022-08-12 22:05:43,078 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log output.log
+2022-08-12 22:05:43,093 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/requirements.txt requirements.txt
+2022-08-12 22:05:43,093 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-metadata.json wandb-metadata.json
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_17_21046767dd696b7cafb0.png media/images/image_sampled_17_21046767dd696b7cafb0.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_20_9dd37c4fbe303a44c4b2.png media/images/image_sampled_20_9dd37c4fbe303a44c4b2.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_24_463210404818daa170e5.png media/images/image_24_463210404818daa170e5.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_0_2feec36eba3b30aa7b84.png media/images/image_0_2feec36eba3b30aa7b84.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_35_d6352d5a14cdc4237e69.png media/images/image_sampled_35_d6352d5a14cdc4237e69.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_10_0ab1bc5576172a9b84f8.png media/images/Prototypes_10_0ab1bc5576172a9b84f8.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_3_190c207d2be3e2775311.png media/images/image_3_190c207d2be3e2775311.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_29_59f648a237f10110bb0d.png media/images/image_sampled_29_59f648a237f10110bb0d.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_33_395bfc27e96fa52a69ad.png media/images/image_33_395bfc27e96fa52a69ad.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_23_e3ba62534f1998cc1fbf.png media/images/image_sampled_23_e3ba62534f1998cc1fbf.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_12_4ce40da46c8c20872fa0.png media/images/image_12_4ce40da46c8c20872fa0.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_26_d12a93d0a66521869318.png media/images/image_sampled_26_d12a93d0a66521869318.png
+2022-08-12 22:05:43,105 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_16_21046767dd696b7cafb0.png media/images/Prototypes_16_21046767dd696b7cafb0.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_32_c400992ca57a03a4ed96.png media/images/image_sampled_32_c400992ca57a03a4ed96.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_8_d91fa2074cd14bc00a4f.png media/images/image_sampled_8_d91fa2074cd14bc00a4f.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_39_ad266c03a2dd6dbbf491.png media/images/image_39_ad266c03a2dd6dbbf491.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_34_d6352d5a14cdc4237e69.png media/images/Prototypes_34_d6352d5a14cdc4237e69.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_15_bfec38f3d069258cd757.png media/images/image_15_bfec38f3d069258cd757.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_31_c400992ca57a03a4ed96.png media/images/Prototypes_31_c400992ca57a03a4ed96.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_28_59f648a237f10110bb0d.png media/images/Prototypes_28_59f648a237f10110bb0d.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_58_8d86eaf950438abdbc38.png media/images/Prototypes_58_8d86eaf950438abdbc38.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_11_0ab1bc5576172a9b84f8.png media/images/image_sampled_11_0ab1bc5576172a9b84f8.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_46_7ac38a3397f7fe12b75d.png media/images/Prototypes_46_7ac38a3397f7fe12b75d.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_43_07edf41672b6fae39585.png media/images/Prototypes_43_07edf41672b6fae39585.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_14_69f889a04c53eb23306e.png media/images/image_sampled_14_69f889a04c53eb23306e.png
+2022-08-12 22:05:43,106 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_36_e3c49c32f414d8e44d0c.png media/images/image_36_e3c49c32f414d8e44d0c.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_42_31e91c3ca4c9cf6f6100.png media/images/image_42_31e91c3ca4c9cf6f6100.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_53_c25abc3382692d638c01.png media/images/image_sampled_53_c25abc3382692d638c01.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_40_3f5e7284ab4376893f37.png media/images/Prototypes_40_3f5e7284ab4376893f37.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_57_734e6b2a398a1d61d7c1.png media/images/image_57_734e6b2a398a1d61d7c1.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_21_b97fe20961c9925f90c8.png media/images/image_21_b97fe20961c9925f90c8.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_6_353d6afd2d717fc388fb.png media/images/image_6_353d6afd2d717fc388fb.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_1_38d6f836a7bd27b755d1.png media/images/Prototypes_1_38d6f836a7bd27b755d1.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_30_046027d55a6273559281.png media/images/image_30_046027d55a6273559281.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_48_f4f6b914c0a669ccdb38.png media/images/image_48_f4f6b914c0a669ccdb38.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_27_b72884797c3c8223ad1b.png media/images/image_27_b72884797c3c8223ad1b.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_38_54353fc417a7f1eb1127.png media/images/image_sampled_38_54353fc417a7f1eb1127.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_45_428743df7371e5fae8b7.png media/images/image_45_428743df7371e5fae8b7.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_4_6f97e869e46c52f8ebfc.png media/images/Prototypes_4_6f97e869e46c52f8ebfc.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_50_98778f19960005461707.png media/images/image_sampled_50_98778f19960005461707.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_9_a65ec533b6fb728dbc15.png media/images/image_9_a65ec533b6fb728dbc15.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_19_9dd37c4fbe303a44c4b2.png media/images/Prototypes_19_9dd37c4fbe303a44c4b2.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_22_e3ba62534f1998cc1fbf.png media/images/Prototypes_22_e3ba62534f1998cc1fbf.png
+2022-08-12 22:05:43,107 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_5_6f97e869e46c52f8ebfc.png media/images/image_sampled_5_6f97e869e46c52f8ebfc.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_56_d7886ee5ea03bd56554c.png media/images/image_sampled_56_d7886ee5ea03bd56554c.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_47_7ac38a3397f7fe12b75d.png media/images/image_sampled_47_7ac38a3397f7fe12b75d.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_44_07edf41672b6fae39585.png media/images/image_sampled_44_07edf41672b6fae39585.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_41_3f5e7284ab4376893f37.png media/images/image_sampled_41_3f5e7284ab4376893f37.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_52_c25abc3382692d638c01.png media/images/Prototypes_52_c25abc3382692d638c01.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_18_0cae760117ef26cdbf45.png media/images/image_18_0cae760117ef26cdbf45.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_13_69f889a04c53eb23306e.png media/images/Prototypes_13_69f889a04c53eb23306e.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_37_54353fc417a7f1eb1127.png media/images/Prototypes_37_54353fc417a7f1eb1127.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_54_61b1bc68d91f44c436ae.png media/images/image_54_61b1bc68d91f44c436ae.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_2_38d6f836a7bd27b755d1.png media/images/image_sampled_2_38d6f836a7bd27b755d1.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_51_7eaa9ffe80bda3ce9980.png media/images/image_51_7eaa9ffe80bda3ce9980.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/image_sampled_59_8d86eaf950438abdbc38.png media/images/image_sampled_59_8d86eaf950438abdbc38.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_55_d7886ee5ea03bd56554c.png media/images/Prototypes_55_d7886ee5ea03bd56554c.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_25_d12a93d0a66521869318.png media/images/Prototypes_25_d12a93d0a66521869318.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_7_d91fa2074cd14bc00a4f.png media/images/Prototypes_7_d91fa2074cd14bc00a4f.png
+2022-08-12 22:05:43,108 INFO    SenderThread:592194 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/media/images/Prototypes_49_98778f19960005461707.png media/images/Prototypes_49_98778f19960005461707.png
+2022-08-12 22:05:43,109 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 7
+2022-08-12 22:05:43,109 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,110 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:43,110 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-12 22:05:43,110 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:43,110 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-08-12 22:05:43,110 INFO    SenderThread:592194 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-12 22:05:43,212 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,212 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,319 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,320 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,423 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,423 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,527 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,528 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,631 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,631 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,734 INFO    Thread-80 :592194 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/wandb-summary.json
+2022-08-12 22:05:43,736 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,736 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,752 INFO    Thread-81 :592194 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/config.yaml
+2022-08-12 22:05:43,758 INFO    Thread-82 :592194 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/conda-environment.yaml
+2022-08-12 22:05:43,763 INFO    Thread-83 :592194 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/output.log
+2022-08-12 22:05:43,769 INFO    Thread-84 :592194 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/files/requirements.txt
+2022-08-12 22:05:43,839 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,840 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,943 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:43,944 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:43,970 INFO    Thread-6  :592194 [sender.py:transition_state():389] send defer: 8
+2022-08-12 22:05:43,971 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:43,971 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-12 22:05:43,972 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:43,972 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-08-12 22:05:44,047 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:44,545 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 9
+2022-08-12 22:05:44,545 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:44,547 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:44,547 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-12 22:05:44,547 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:44,547 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-08-12 22:05:44,548 INFO    SenderThread:592194 [sender.py:transition_state():389] send defer: 10
+2022-08-12 22:05:44,549 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: defer
+2022-08-12 22:05:44,549 INFO    HandlerThread:592194 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-12 22:05:44,550 DEBUG   SenderThread:592194 [sender.py:send():232] send: final
+2022-08-12 22:05:44,550 DEBUG   SenderThread:592194 [sender.py:send():232] send: footer
+2022-08-12 22:05:44,550 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: defer
+2022-08-12 22:05:44,550 INFO    SenderThread:592194 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-08-12 22:05:44,648 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-12 22:05:44,648 DEBUG   SenderThread:592194 [sender.py:send_request():246] send_request: poll_exit
+2022-08-12 22:05:44,649 INFO    SenderThread:592194 [file_pusher.py:join():150] waiting for file pusher
+2022-08-12 22:05:45,171 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-12 22:05:45,173 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-12 22:05:45,176 DEBUG   HandlerThread:592194 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-12 22:05:45,176 INFO    HandlerThread:592194 [handler.py:finish():806] shutting down handler
+2022-08-12 22:05:45,550 INFO    WriterThread:592194 [datastore.py:close():279] close: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220812_220128-mdk7ti9m/run-mdk7ti9m.wandb
+2022-08-12 22:05:46,068 INFO    SenderThread:592194 [sender.py:finish():1110] shutting down sender
+2022-08-12 22:05:46,068 INFO    SenderThread:592194 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-12 22:05:46,068 INFO    SenderThread:592194 [file_pusher.py:join():150] waiting for file pusher
+2022-08-12 22:05:46,081 INFO    MainThread:592194 [internal.py:handle_exit():80] Internal process exited

@@ -1,0 +1,51 @@
+[INFO] compute mappings and stat accuracy
+{0: 3, 1: 7, 2: 1, 3: 1, 4: 6, 5: 7, 6: 1, 7: 4, 8: 2, 9: 6, 10: 5, 11: 7, 12: 5, 13: 3, 14: 2, 15: 8, 16: 4, 17: 8, 18: 4, 19: 2, 20: 3, 21: 4, 22: 6, 23: 1, 24: 9, 25: 3, 26: 0, 27: 6, 28: 9, 29: 4, 30: 9, 31: 9, 32: 8, 33: 2, 34: 0, 35: 0, 36: 3, 37: 5, 38: 5, 39: 1}
+              precision    recall  f1-score   support
+           0       0.89      0.94      0.91       980
+           1       0.86      0.99      0.92      1135
+           2       0.90      0.85      0.87      1032
+           3       0.86      0.82      0.84      1010
+           4       0.77      0.74      0.76       982
+           5       0.75      0.80      0.77       892
+           6       0.87      0.95      0.90       958
+           7       0.89      0.81      0.85      1028
+           8       0.88      0.77      0.82       974
+           9       0.73      0.72      0.72      1009
+    accuracy                           0.84     10000
+   macro avg       0.84      0.84      0.84     10000
+weighted avg       0.84      0.84      0.84     10000
+[INFO] compute kNN accuracy
+              precision    recall  f1-score   support
+           0       0.97      0.99      0.98       980
+           1       0.96      0.99      0.98      1135
+           2       0.98      0.96      0.97      1032
+           3       0.97      0.95      0.96      1010
+           4       0.97      0.96      0.96       982
+           5       0.96      0.96      0.96       892
+           6       0.97      0.98      0.98       958
+           7       0.96      0.95      0.96      1028
+           8       0.97      0.95      0.96       974
+           9       0.94      0.96      0.95      1009
+    accuracy                           0.97     10000
+   macro avg       0.97      0.97      0.97     10000
+weighted avg       0.97      0.97      0.97     10000
+[INFO] compute linear accuracy
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/torch/nn/modules/lazy.py:178: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+
+
+[LINEAR] epoch 9 loss: 0.6948866844177246 acc: 0.78125: 100%|██████████| 10/10 [00:04<00:00,  2.45it/s]
+              precision    recall  f1-score   support
+           0       0.90      0.93      0.92       980
+           1       0.89      0.95      0.92      1135
+           2       0.86      0.80      0.83      1032
+           3       0.84      0.83      0.84      1010
+           4       0.83      0.87      0.85       982
+           5       0.78      0.74      0.76       892
+           6       0.90      0.91      0.91       958
+           7       0.88      0.86      0.87      1028
+           8       0.81      0.81      0.81       974
+           9       0.81      0.81      0.81      1009
+    accuracy                           0.85     10000
+   macro avg       0.85      0.85      0.85     10000
+weighted avg       0.85      0.85      0.85     10000

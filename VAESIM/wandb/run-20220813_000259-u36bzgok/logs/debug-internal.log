@@ -1,0 +1,178 @@
+2022-08-13 00:03:04,686 INFO    MainThread:1275920 [internal.py:wandb_internal():90] W&B internal server running at pid: 1275920, started at: 2022-08-13 00:03:04.685941
+2022-08-13 00:03:04,688 INFO    WriterThread:1275920 [datastore.py:open_for_write():75] open: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/run-u36bzgok.wandb
+2022-08-13 00:03:04,690 DEBUG   SenderThread:1275920 [sender.py:send():232] send: header
+2022-08-13 00:03:04,690 DEBUG   SenderThread:1275920 [sender.py:send():232] send: run
+2022-08-13 00:03:04,916 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: check_version
+2022-08-13 00:03:04,921 INFO    SenderThread:1275920 [dir_watcher.py:__init__():197] watching files in: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files
+2022-08-13 00:03:04,921 INFO    SenderThread:1275920 [sender.py:_start_run_threads():811] run started: u36bzgok with start time 1660345383
+2022-08-13 00:03:04,921 DEBUG   SenderThread:1275920 [sender.py:send():232] send: summary
+2022-08-13 00:03:04,921 INFO    SenderThread:1275920 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-13 00:03:04,921 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: check_version
+2022-08-13 00:03:04,965 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: run_start
+2022-08-13 00:03:04,972 DEBUG   HandlerThread:1275920 [meta.py:__init__():35] meta init
+2022-08-13 00:03:04,972 DEBUG   HandlerThread:1275920 [meta.py:__init__():49] meta init done
+2022-08-13 00:03:04,972 DEBUG   HandlerThread:1275920 [meta.py:probe():209] probe
+2022-08-13 00:03:04,979 DEBUG   HandlerThread:1275920 [git.py:repo():29] git repository is invalid
+2022-08-13 00:03:04,979 DEBUG   HandlerThread:1275920 [meta.py:_save_pip():53] save pip
+2022-08-13 00:03:04,979 DEBUG   HandlerThread:1275920 [meta.py:_save_pip():67] save pip done
+2022-08-13 00:03:04,980 DEBUG   HandlerThread:1275920 [meta.py:_save_conda():74] save conda
+2022-08-13 00:03:05,926 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/wandb-summary.json
+2022-08-13 00:03:05,927 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/requirements.txt
+2022-08-13 00:03:05,927 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/conda-environment.yaml
+2022-08-13 00:03:07,926 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/conda-environment.yaml
+2022-08-13 00:03:08,058 DEBUG   HandlerThread:1275920 [meta.py:_save_conda():84] save conda done
+2022-08-13 00:03:08,058 DEBUG   HandlerThread:1275920 [meta.py:probe():247] probe done
+2022-08-13 00:03:08,235 DEBUG   SenderThread:1275920 [sender.py:send():232] send: files
+2022-08-13 00:03:08,236 INFO    SenderThread:1275920 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-08-13 00:03:08,254 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-13 00:03:08,255 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: stop_status
+2022-08-13 00:03:08,462 DEBUG   SenderThread:1275920 [sender.py:send():232] send: telemetry
+2022-08-13 00:03:08,861 INFO    Thread-11 :1275920 [upload_job.py:push():132] Uploaded file /tmp/tmpmn0znxthwandb/2igyq4k6-wandb-metadata.json
+2022-08-13 00:03:08,926 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/wandb-metadata.json
+2022-08-13 00:03:08,927 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/output.log
+2022-08-13 00:03:09,101 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-13 00:03:09,101 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: log_artifact
+2022-08-13 00:03:09,333 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-13 00:03:09,647 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: log_artifact
+2022-08-13 00:03:09,661 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-13 00:03:09,936 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/media/table/stat_df_0_98d99c53f922b606eee0.table.json
+2022-08-13 00:03:09,936 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/media/table/knn_df_0_4406ad8316c6f25e9fce.table.json
+2022-08-13 00:03:09,937 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/media/table/lin_df_0_5aeb0c8357d266e317ff.table.json
+2022-08-13 00:03:09,937 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/media/table
+2022-08-13 00:03:09,937 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_created():244] file/dir created: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/media
+2022-08-13 00:03:10,831 INFO    Thread-13 :1275920 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/ff/3267a36ffa6dfbab65dd533e9d36f9
+2022-08-13 00:03:10,936 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/output.log
+2022-08-13 00:03:11,833 INFO    SenderThread:1275920 [sender.py:send_request_log_artifact():1005] logged artifact run-u36bzgok-stat_df - {'id': 'QXJ0aWZhY3Q6MTcyMDUzMzc5', 'digest': 'bbd814d721480f38f5d6a03c49772ce0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzM2Nzg0', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-13 00:03:11,833 DEBUG   SenderThread:1275920 [sender.py:send():232] send: files
+2022-08-13 00:03:11,834 INFO    SenderThread:1275920 [sender.py:_save_file():948] saving file media/table/stat_df_0_98d99c53f922b606eee0.table.json with policy now
+2022-08-13 00:03:11,834 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: log_artifact
+2022-08-13 00:03:12,486 INFO    Thread-14 :1275920 [upload_job.py:push():132] Uploaded file /tmp/tmpmn0znxthwandb/3hqesf6x-media/table/stat_df_0_98d99c53f922b606eee0.table.json
+2022-08-13 00:03:13,226 INFO    Thread-16 :1275920 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/53/d5aa116b56ce1642316ede5ed32314
+2022-08-13 00:03:14,270 INFO    SenderThread:1275920 [sender.py:send_request_log_artifact():1005] logged artifact run-u36bzgok-knn_df - {'id': 'QXJ0aWZhY3Q6MTcyMDUzNDA3', 'digest': 'ecfe989c225598fe000c89df7f7693f8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzM2Nzg2', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-13 00:03:14,270 DEBUG   SenderThread:1275920 [sender.py:send():232] send: files
+2022-08-13 00:03:14,270 INFO    SenderThread:1275920 [sender.py:_save_file():948] saving file media/table/knn_df_0_4406ad8316c6f25e9fce.table.json with policy now
+2022-08-13 00:03:14,271 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: log_artifact
+2022-08-13 00:03:14,880 INFO    Thread-17 :1275920 [upload_job.py:push():132] Uploaded file /tmp/tmpmn0znxthwandb/3siq5mzx-media/table/knn_df_0_4406ad8316c6f25e9fce.table.json
+2022-08-13 00:03:15,627 INFO    Thread-19 :1275920 [upload_job.py:push():90] Uploaded file /home/matteo/.cache/wandb/artifacts/obj/md5/84/c29b44592a5d7d755c9f117190cfd7
+2022-08-13 00:03:16,700 INFO    SenderThread:1275920 [sender.py:send_request_log_artifact():1005] logged artifact run-u36bzgok-lin_df - {'id': 'QXJ0aWZhY3Q6MTcyMDUzNDM2', 'digest': '34527e4a9cea7c4b2adf24b3a91a6740', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI1NzM2Nzg3', 'latestArtifact': None}, 'version': 'latest'}
+2022-08-13 00:03:16,700 DEBUG   SenderThread:1275920 [sender.py:send():232] send: files
+2022-08-13 00:03:16,700 INFO    SenderThread:1275920 [sender.py:_save_file():948] saving file media/table/lin_df_0_5aeb0c8357d266e317ff.table.json with policy now
+2022-08-13 00:03:16,700 DEBUG   SenderThread:1275920 [sender.py:send():232] send: history
+2022-08-13 00:03:16,701 DEBUG   SenderThread:1275920 [sender.py:send():232] send: summary
+2022-08-13 00:03:16,705 INFO    SenderThread:1275920 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-13 00:03:16,940 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/wandb-summary.json
+2022-08-13 00:03:17,320 INFO    Thread-20 :1275920 [upload_job.py:push():132] Uploaded file /tmp/tmpmn0znxthwandb/15geprw8-media/table/lin_df_0_5aeb0c8357d266e317ff.table.json
+2022-08-13 00:03:23,465 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-13 00:03:23,465 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: stop_status
+2022-08-13 00:03:34,015 DEBUG   SenderThread:1275920 [sender.py:send():232] send: stats
+2022-08-13 00:03:35,953 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/config.yaml
+2022-08-13 00:03:38,674 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-13 00:03:38,674 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: stop_status
+2022-08-13 00:03:53,905 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-13 00:03:53,906 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: stop_status
+2022-08-13 00:04:05,045 DEBUG   SenderThread:1275920 [sender.py:send():232] send: stats
+2022-08-13 00:04:09,167 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-13 00:04:09,168 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: stop_status
+2022-08-13 00:04:24,429 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-13 00:04:24,430 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: stop_status
+2022-08-13 00:04:36,075 DEBUG   SenderThread:1275920 [sender.py:send():232] send: stats
+2022-08-13 00:04:39,633 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-13 00:04:39,634 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: stop_status
+2022-08-13 00:04:54,741 WARNING MainThread:1275920 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-08-13 00:04:54,751 DEBUG   SenderThread:1275920 [sender.py:send():232] send: telemetry
+2022-08-13 00:04:54,940 DEBUG   SenderThread:1275920 [sender.py:send():232] send: exit
+2022-08-13 00:04:54,940 INFO    SenderThread:1275920 [sender.py:send_exit():368] handling exit code: 0
+2022-08-13 00:04:54,940 INFO    SenderThread:1275920 [sender.py:send_exit():370] handling runtime: 109
+2022-08-13 00:04:54,944 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:54,944 INFO    SenderThread:1275920 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-13 00:04:54,945 INFO    SenderThread:1275920 [sender.py:send_exit():376] send defer
+2022-08-13 00:04:54,945 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:54,946 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:54,946 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-13 00:04:54,946 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:54,947 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-08-13 00:04:54,947 INFO    SenderThread:1275920 [sender.py:transition_state():389] send defer: 1
+2022-08-13 00:04:54,947 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:54,947 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-13 00:04:55,003 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/wandb-summary.json
+2022-08-13 00:04:55,004 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/output.log
+2022-08-13 00:04:55,022 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:55,022 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-08-13 00:04:55,022 INFO    SenderThread:1275920 [sender.py:transition_state():389] send defer: 2
+2022-08-13 00:04:55,023 DEBUG   SenderThread:1275920 [sender.py:send():232] send: stats
+2022-08-13 00:04:55,024 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:55,024 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-13 00:04:55,024 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:55,024 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-08-13 00:04:55,024 INFO    SenderThread:1275920 [sender.py:transition_state():389] send defer: 3
+2022-08-13 00:04:55,025 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:55,025 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-13 00:04:55,025 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:55,025 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-08-13 00:04:55,026 INFO    SenderThread:1275920 [sender.py:transition_state():389] send defer: 4
+2022-08-13 00:04:55,026 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:55,026 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-13 00:04:55,027 DEBUG   SenderThread:1275920 [sender.py:send():232] send: summary
+2022-08-13 00:04:55,027 INFO    SenderThread:1275920 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-13 00:04:55,028 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:55,028 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-08-13 00:04:55,028 INFO    SenderThread:1275920 [sender.py:transition_state():389] send defer: 5
+2022-08-13 00:04:55,028 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:55,029 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-13 00:04:55,029 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:55,029 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-08-13 00:04:55,056 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:55,258 INFO    SenderThread:1275920 [sender.py:transition_state():389] send defer: 6
+2022-08-13 00:04:55,258 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:55,259 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:55,259 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-13 00:04:55,260 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:55,260 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-08-13 00:04:55,260 INFO    SenderThread:1275920 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-08-13 00:04:55,361 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,004 INFO    Thread-7  :1275920 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/config.yaml
+2022-08-13 00:04:56,005 INFO    SenderThread:1275920 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/wandb-summary.json
+2022-08-13 00:04:56,005 INFO    SenderThread:1275920 [dir_watcher.py:finish():342] scan: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files
+2022-08-13 00:04:56,006 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/wandb-summary.json wandb-summary.json
+2022-08-13 00:04:56,006 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/config.yaml config.yaml
+2022-08-13 00:04:56,006 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/conda-environment.yaml conda-environment.yaml
+2022-08-13 00:04:56,007 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/output.log output.log
+2022-08-13 00:04:56,007 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/requirements.txt requirements.txt
+2022-08-13 00:04:56,007 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/wandb-metadata.json wandb-metadata.json
+2022-08-13 00:04:56,012 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/media/table/knn_df_0_4406ad8316c6f25e9fce.table.json media/table/knn_df_0_4406ad8316c6f25e9fce.table.json
+2022-08-13 00:04:56,012 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/media/table/stat_df_0_98d99c53f922b606eee0.table.json media/table/stat_df_0_98d99c53f922b606eee0.table.json
+2022-08-13 00:04:56,012 INFO    SenderThread:1275920 [dir_watcher.py:finish():356] scan save: /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/media/table/lin_df_0_5aeb0c8357d266e317ff.table.json media/table/lin_df_0_5aeb0c8357d266e317ff.table.json
+2022-08-13 00:04:56,013 INFO    SenderThread:1275920 [sender.py:transition_state():389] send defer: 7
+2022-08-13 00:04:56,013 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,017 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:56,017 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-13 00:04:56,018 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:56,018 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-08-13 00:04:56,018 INFO    SenderThread:1275920 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-13 00:04:56,127 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,128 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,233 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,237 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,340 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,341 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,446 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,446 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,550 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,551 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,653 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,653 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,673 INFO    Thread-23 :1275920 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/conda-environment.yaml
+2022-08-13 00:04:56,675 INFO    Thread-22 :1275920 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/config.yaml
+2022-08-13 00:04:56,678 INFO    Thread-24 :1275920 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/output.log
+2022-08-13 00:04:56,683 INFO    Thread-25 :1275920 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/requirements.txt
+2022-08-13 00:04:56,695 INFO    Thread-21 :1275920 [upload_job.py:push():132] Uploaded file /home/matteo/Unsupervised/vaesim_baselines/VAESIM/wandb/run-20220813_000259-u36bzgok/files/wandb-summary.json
+2022-08-13 00:04:56,756 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,756 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,858 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-13 00:04:56,859 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: poll_exit
+2022-08-13 00:04:56,896 INFO    Thread-6  :1275920 [sender.py:transition_state():389] send defer: 8
+2022-08-13 00:04:56,896 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: defer
+2022-08-13 00:04:56,897 INFO    HandlerThread:1275920 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-13 00:04:56,897 DEBUG   SenderThread:1275920 [sender.py:send_request():246] send_request: defer
+2022-08-13 00:04:56,897 INFO    SenderThread:1275920 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-08-13 00:04:56,961 DEBUG   HandlerThread:1275920 [handler.py:handle_request():141] handle_request: poll_exit

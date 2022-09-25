@@ -1,0 +1,17 @@
+{
+    "os": "Linux-5.10.0-14-amd64-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-08-12T20:53:23.427693",
+    "startedAt": "2022-08-12T20:53:22.185344",
+    "docker": null,
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 2,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "kirk",
+    "username": "matteo",
+    "executable": "/home/matteo/anaconda3/envs/pytorch/bin/python"
+}

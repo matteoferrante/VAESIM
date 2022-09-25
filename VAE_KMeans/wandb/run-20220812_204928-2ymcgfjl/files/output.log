@@ -1,0 +1,53 @@
+[INFO] compute mappings and stat accuracy
+{0: 3, 1: 4, 2: 4, 3: 5, 4: 2, 5: 2, 6: 6, 7: 8, 8: 1, 9: 1, 10: 6, 11: 7, 12: 3, 13: 7, 14: 1, 15: 9, 16: 7, 17: 0, 18: 0, 19: 8}
+              precision    recall  f1-score   support
+           0       0.86      0.81      0.83       980
+           1       0.77      0.98      0.86      1135
+           2       0.85      0.72      0.78      1032
+           3       0.62      0.70      0.66      1010
+           4       0.55      0.51      0.53       982
+           5       0.54      0.28      0.37       892
+           6       0.82      0.85      0.84       958
+           7       0.57      0.78      0.66      1028
+           8       0.60      0.68      0.64       974
+           9       0.48      0.35      0.40      1009
+    accuracy                           0.67     10000
+   macro avg       0.67      0.67      0.66     10000
+weighted avg       0.67      0.67      0.66     10000
+[INFO] compute kNN accuracy
+              precision    recall  f1-score   support
+           0       0.89      0.94      0.91       980
+           1       0.75      0.98      0.85      1135
+           2       0.87      0.76      0.81      1032
+           3       0.80      0.78      0.79      1010
+           4       0.74      0.76      0.75       982
+           5       0.78      0.69      0.73       892
+           6       0.86      0.89      0.87       958
+           7       0.83      0.80      0.81      1028
+           8       0.78      0.70      0.74       974
+           9       0.73      0.68      0.70      1009
+    accuracy                           0.80     10000
+   macro avg       0.80      0.80      0.80     10000
+weighted avg       0.80      0.80      0.80     10000
+[INFO] compute linear accuracy
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/torch/nn/modules/lazy.py:178: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+
+
+
+[LINEAR] epoch 8 loss: 1.0213216543197632 acc: 0.6770833730697632:  90%|▉| 9/10 [00:07<00:00,  1.25it/s
+              precision    recall  f1-score   support
+           0       0.85      0.87      0.86       980
+           1       0.79      0.89      0.84      1135
+           2       0.77      0.71      0.74      1032
+           3       0.74      0.77      0.76      1010
+           4       0.73      0.75      0.74       982
+           5       0.66      0.61      0.63       892
+           6       0.80      0.83      0.82       958
+           7       0.80      0.79      0.79      1028
+           8       0.72      0.70      0.71       974
+           9       0.70      0.66      0.68      1009
+    accuracy                           0.76     10000
+   macro avg       0.76      0.76      0.76     10000
+
+[LINEAR] epoch 9 loss: 0.9665458798408508 acc: 0.6979166865348816: 100%|█| 10/10 [00:08<00:00,  1.16it/

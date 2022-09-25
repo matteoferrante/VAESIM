@@ -1,0 +1,58 @@
+[INFO] compute mappings and stat accuracy
+[WARNING] cluster 1 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 3 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 7 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 10 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 14 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 15 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 18 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 24 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 26 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 29 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 30 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 31 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 34 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 35 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 36 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+[WARNING] cluster 38 matched no classes. It's now linked to the mode of the labels. This could lead to decrease in metrics.
+{0: 1, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 0, 12: 1, 13: 1, 14: 1, 15: 1, 16: 1, 17: 1, 18: 1, 19: 1, 20: 1, 21: 1, 22: 1, 23: 1, 24: 1, 25: 0, 26: 1, 27: 1, 28: 1, 29: 1, 30: 1, 31: 1, 32: 1, 33: 1, 34: 1, 35: 1, 36: 1, 37: 1, 38: 1, 39: 1}
+              precision    recall  f1-score   support
+           0       0.00      0.00      0.00       369
+           1       0.68      1.00      0.81       779
+    accuracy                           0.68      1148
+   macro avg       0.34      0.50      0.40      1148
+weighted avg       0.46      0.68      0.55      1148
+[INFO] compute kNN accuracy
+              precision    recall  f1-score   support
+           0       0.72      0.57      0.63       369
+           1       0.81      0.89      0.85       779
+    accuracy                           0.79      1148
+   macro avg       0.76      0.73      0.74      1148
+weighted avg       0.78      0.79      0.78      1148
+[INFO] compute linear accuracy
+              precision    recall  f1-score   support
+           0       0.35      0.06      0.10       369
+           1       0.68      0.94      0.79       779
+           2       0.00      0.00      0.00         0
+           8       0.00      0.00      0.00         0
+           9       0.00      0.00      0.00         0
+    accuracy                           0.66      1148
+   macro avg       0.21      0.20      0.18      1148
+weighted avg       0.57      0.66      0.57      1148
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/neighbors/_classification.py:200: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/torch/nn/modules/lazy.py:178: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+[LINEAR] epoch 9 loss: 0.8794054985046387 acc: 0.7199999690055847: 100%|█| 10/10 [00:00<00:00, 27.05it/
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/matteo/anaconda3/envs/pytorch/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
